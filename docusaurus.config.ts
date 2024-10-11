@@ -2,6 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+require('dotenv').config();
+
 const config: Config = {
   title: 'Hi, There 👋🏻',
   tagline: 'welcome to my place',
@@ -21,6 +23,12 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // 추가 설정 (액세스 토큰 사용)
+  customFields: {
+    githubToken: process.env.GITHUB_TOKEN,
+  },
+  deploymentBranch: 'gh-pages', 
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
