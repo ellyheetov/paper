@@ -5,18 +5,19 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Hi, There 👋🏻',
   tagline: 'welcome to my place',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ibooks.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ellyheetov.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/treasure/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ellyheetov', // Usually your GitHub org/user name.
+  projectName: 'treasure', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -69,7 +70,7 @@ const config: Config = {
       title: 'elly\'s treasure',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/ibooks.svg',
       },
       items: [
         {
@@ -112,7 +113,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ellyheetov',
             },
           ],
         },
