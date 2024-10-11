@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktreasure=self.webpackChunktreasure||[]).push([[284],{5935:e=>{e.exports=JSON.parse('{"authors":[{"name":"ellyheetov","title":"iOS Developer","url":"https://github.com/ellyheetov","socials":{"github":"https://github.com/ellyheetov"},"imageURL":"https://github.com/ellyheetov.png","key":"ellyheetov","page":null,"count":1}]}')}}]);

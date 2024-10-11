@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktreasure=self.webpackChunktreasure||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/treasure/blog","blogTitle":"Blog","authorsListPath":"/treasure/blog/authors"}')}}]);
