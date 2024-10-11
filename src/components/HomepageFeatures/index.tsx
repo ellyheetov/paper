@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Img: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'iOS Developer',
-    Svg: require('@site/static/img/im_developer.svg').default,
+    Img: require('@site/static/img/im_developer.png').default,
     description: (
       <>
         I’m an iOS developer with a passion for building apps that feel just right.
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Adventure',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Img: require('@site/static/img/adventure.png').default,
     description: (
       <>
         When I’m not coding, you’ll probably find me climbing, playing futsal, or doing something active. 
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Sharing',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: require('@site/static/img/sharing.jpg').default,
     description: (
       <>
         I like to share what I’m up to, whether it’s tech-related, an adventure story, or just thoughts on life. 
@@ -42,11 +42,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Img, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Img} alt={title} className={styles.featureImg} /> 
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
