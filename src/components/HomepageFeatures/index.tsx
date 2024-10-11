@@ -10,32 +10,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'iOS Developer',
+    Svg: require('@site/static/img/im_developer.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I’m an iOS developer with a passion for building apps that feel just right.
+        I enjoy the process of turning ideas into smooth, user-friendly experiences, and I’m always looking for new ways to improve my skills and stay updated with the latest in mobile tech. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Adventure',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        When I’m not coding, you’ll probably find me climbing, playing futsal, or doing something active. 
+        I love challenging myself and pushing my limits, especially when it involves being outdoors or working with a team. 
+        These activities give me the energy and focus I need to bring the same level of excitement and dedication to my work.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Sharing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I like to share what I’m up to, whether it’s tech-related, an adventure story, or just thoughts on life. 
+        Blogging is a way for me to reflect, connect with others, and keep track of what I’m learning along the way.
       </>
     ),
   },
