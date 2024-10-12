@@ -44,6 +44,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -73,9 +74,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/door.png',
     navbar: {
-      title: 'elly\'s treasure',
+      title: 'Treasure Warehouse',
       logo: {
         alt: 'My Site Logo',
         src: 'img/ibooks.svg',
@@ -85,14 +86,18 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Books',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/ellyheetov',
           label: 'GitHub',
           position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -102,7 +107,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Docs',
+              label: 'Books',
               to: '/docs/intro',
             },
           ],
@@ -111,12 +116,20 @@ const config: Config = {
           title: 'More',
           items: [
             {
+              label: 'About Me',
+              to: '/',
+            },
+            {
               label: 'Blog',
               to: '/blog',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/ellyheetov',
+            },
+            {
+              href: 'https://github.com/facebook/docusaurus',
+              label: 'docusaurus',
             },
           ],
         },

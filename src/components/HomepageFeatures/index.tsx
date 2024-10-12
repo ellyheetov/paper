@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Sharing',
-    Img: require('@site/static/img/sharing.jpg').default,
+    Img: require('@site/static/img/communication.jpg').default,
     description: (
       <>
         I like to share what I’m up to, whether it’s tech-related, an adventure story, or just thoughts on life. 
