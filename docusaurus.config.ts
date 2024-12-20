@@ -76,7 +76,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/door.png',
     navbar: {
-      title: 'Treasure Warehouse',
+      title: 'Treasure',
       logo: {
         alt: 'My Site Logo',
         src: 'img/ibooks.svg',
