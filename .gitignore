@@ -29,6 +29,8 @@ packages/docusaurus-*/lib/*
 packages/eslint-plugin/lib/
 packages/stylelint-copyright/lib/
 
+src/theme/DocItem/
+
 website/netlifyDeployPreview/*
 website/changelog
 !website/netlifyDeployPreview/index.html
