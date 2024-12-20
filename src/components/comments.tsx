@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 
 interface UtterancesProps {
   repo: string; // GitHub 저장소 이름
@@ -10,9 +11,11 @@ interface UtterancesProps {
 const Utterances: React.FC<UtterancesProps> = ({
     repo,
     issueTerm,
-    label = 'comment',
-    theme = 'github-light',
+    label = 'comment'
   }) => {
+    const { colorMode } = useColorMode(); // 현재 테마 상태 가져오기
+    const theme = colorMode === 'dark' ? 'github-dark' : 'github-light'; 
+
     useEffect(() => {
       const script = document.createElement('script');
       script.src = 'https://utteranc.es/client.js';
