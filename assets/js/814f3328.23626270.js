@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktreasure=self.webpackChunktreasure||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Post","permalink":"/treasure/blog/First Post","unlisted":false,"date":"2024-12-20T03:29:23.000Z"}]}')}}]);
