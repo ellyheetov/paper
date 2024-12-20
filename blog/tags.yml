@@ -7,3 +7,8 @@ design_pattern:
   label: Design Pattern
   permalink: /design
   description: about design pattern
+
+swift:
+  label: Swift
+  permalink: /swift
+  description: swift tag description
