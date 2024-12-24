@@ -9,31 +9,31 @@ interface UtterancesProps {
 }
 
 const Utterances: React.FC<UtterancesProps> = ({
-    repo,
-    issueTerm,
-    label = 'comment'
-  }) => {
-    const { colorMode } = useColorMode(); // 현재 테마 상태 가져오기
-    const theme = colorMode === 'dark' ? 'github-dark' : 'github-light'; 
+  repo,
+  issueTerm,
+  label = 'comment'
+}) => {
+  const { colorMode } = useColorMode();
+  const theme = colorMode === 'dark' ? 'github-dark' : 'github-light';
 
-    useEffect(() => {
-      const script = document.createElement('script');
-      script.src = 'https://utteranc.es/client.js';
-      script.setAttribute('repo', repo);
-      script.setAttribute('issue-term', issueTerm);
-      if (label) script.setAttribute('label', label);
-      script.setAttribute('theme', theme);
-      script.crossOrigin = 'anonymous';
-      script.async = true;
-  
-      const commentsSection = document.getElementById('utterances-container');
-      if (commentsSection) {
-        commentsSection.innerHTML = ''; // 중복 로드를 방지하기 위해 초기화
-        commentsSection.appendChild(script);
-      }
-    }, [repo, issueTerm, label, theme]); // 의존성 배열에 props 추가
-  
-    return <div id="utterances-container" />;
-  };
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', repo);
+    script.setAttribute('issue-term', issueTerm);
+    if (label) script.setAttribute('label', label);
+    script.setAttribute('theme', theme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const commentsSection = document.getElementById('utterances-container');
+    if (commentsSection) {
+      commentsSection.innerHTML = ''; // 중복 로드를 방지하기 위해 초기화
+      commentsSection.appendChild(script);
+    }
+  }, [repo, issueTerm, label, theme]); // 의존성 배열에 props 추가
+
+  return <div id="utterances-container" />;
+};
 
 export default Utterances;

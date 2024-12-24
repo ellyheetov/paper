@@ -10,14 +10,28 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  .content {
+    margin-left: 0px;
+    width: 100%;
+  }
 }

@@ -1,0 +1,66 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  transition: left 0.3s ease;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: #007bff87;
+}
+
+.selected {
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px; 
+  height: 24px; 
+  padding: 0 6px;
+  border: 0.5px solid #007bff;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+}
+
+@media (max-width: 996px) {
+  .sidebar {
+    display: none;
+  }
+}
