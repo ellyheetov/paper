@@ -1,8 +1,3 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
 design_pattern:
   label: Design Pattern
   permalink: /design
@@ -12,3 +7,18 @@ swift:
   label: Swift
   permalink: /swift
   description: swift tag description
+
+swiftUI:
+  label: SwiftUI
+  permalink: /swiftUI
+  description: swiftUI tag description
+
+UIKit:
+  label: UIKit
+  permalink: /UIKit
+  description: UIKit tag description
+
+troubleshooting:
+  label: troubleshooting
+  permalink: /troubleshooting
+  description: a systematic approach to solving a problem. The goal of troubleshooting is to determine why something does not work as expected and explain how to resolve the problem.

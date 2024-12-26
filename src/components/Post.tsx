@@ -5,6 +5,7 @@ interface Post {
     author: string;
     image: string;
     date: string;
+    url: string;
 }
 
 interface PostCardListProps {

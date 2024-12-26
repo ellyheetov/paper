@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from '../css/CardList.module.css';
+import Link from '@docusaurus/Link';
 
 const PostCardList: React.FC<PostCardListProps> = ({ posts }) => {
   return (
     <div className={styles.cardList}>
       {posts.map((post) => (
-        <div key={post.id} className={styles.card}>
+        <Link key={post.id} to={post.url} className={styles.card}>
           <img src={post.image} alt={post.title} className={styles.image} />
           <div className={styles.content}>
             <h3 className={styles.title}>{post.title}</h3>
@@ -15,7 +16,7 @@ const PostCardList: React.FC<PostCardListProps> = ({ posts }) => {
               <span className={styles.date}>{post.date}</span>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );

@@ -3,18 +3,8 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-
 .content {
-  margin-left: 250px;
-  padding: 20px;
-  width: calc(100% - 250px);
+  padding: 50px;
   overflow-y: auto;
   height: 100vh;
   box-sizing: border-box;
@@ -27,9 +17,6 @@
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
   .content {
     margin-left: 0px;
     width: 100%;
