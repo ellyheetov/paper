@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://ellyheetov.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/treasure/',
+  baseUrl: '/treasure',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -45,10 +45,6 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -75,41 +71,41 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/door.png',
-    navbar: {
-      title: 'Treasure',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/ibooks.svg',
-      },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'devSidebar',
-          position: 'left',
-          label: 'DevLog',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'bookSidebar',
-          position: 'left',
-          label: 'Books',
-        },
-        {
-          to: '/blog', 
-          label: 'Blog', 
-          position: 'left'
-        },
-        {
-          href: 'https://github.com/ellyheetov',
-          label: 'GitHub',
-          position: 'right',
-        }
-      ],
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
+    // navbar: {
+    //   title: 'Treasure',
+    //   logo: {
+    //     alt: 'My Site Logo',
+    //     src: 'img/ibooks.svg',
+    //   },
+    //   items: [
+    //     {
+    //       type: 'docSidebar',
+    //       sidebarId: 'devSidebar',
+    //       position: 'left',
+    //       label: 'DevLog',
+    //     },
+    //     {
+    //       type: 'docSidebar',
+    //       sidebarId: 'bookSidebar',
+    //       position: 'left',
+    //       label: 'Books',
+    //     },
+    //     {
+    //       to: '/blog', 
+    //       label: 'Blog', 
+    //       position: 'left'
+    //     },
+    //     {
+    //       href: 'https://github.com/ellyheetov',
+    //       label: 'GitHub',
+    //       position: 'right',
+    //     }
+    //   ],
+    // },
+    // prism: {
+    //   theme: prismThemes.github,
+    //   darkTheme: prismThemes.dracula,
+    // },
   } satisfies Preset.ThemeConfig,
 };
 

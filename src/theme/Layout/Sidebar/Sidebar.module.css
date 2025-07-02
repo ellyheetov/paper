@@ -1,26 +1,29 @@
 .sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
   padding: 10px;
   width: 250px;
-  height: 100vh;
   background-color: #f8f9fa;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  transition: left 0.3s ease;
+  transition: width 0.3s ease, left 0.3s ease;
   z-index: 1000;
 }
 
+/* 다크 모드 */
+html[data-theme="dark"] .sidebar {
+  background-color: #23272f;
+  color: #eee;
+}
+
+/* 네비게이션 아이템 */
 .navItem {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, padding 0.3s ease;
 }
 
 .navItem:hover {
@@ -37,20 +40,48 @@
   width: 24px;
   height: 24px;
   margin-right: 10px;
+  flex-shrink: 0;
+  transition: margin 0.3s ease;
+}
+
+.toggleButtonContainer {
+  justify-content: flex-end;
+}
+
+.toggleButton {
+  background-color: inherit;
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .text {
   font-size: 16px;
   margin-right: 10px;
   margin-left: 10px;
+  transition: opacity 0.3s ease, margin 0.3s ease;
 }
 
 .count {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 24px; 
-  height: 24px; 
+  min-width: 24px;
+  height: 24px;
   padding: 0 6px;
   border: 0.5px solid #007bff;
   border-radius: 50%;
@@ -66,10 +97,44 @@
   border-top: 1px solid #ddd;
   padding-top: 10px;
   color: #555;
+  transition: opacity 0.3s ease;
 }
 
 @media (max-width: 996px) {
   .sidebar {
-    display: none;
+    width: 60px;
+    .headerText {
+      display: none;
+    }
+    .text {
+      display: none; 
+    }
+    .count {
+      display: none; 
+    }
+    .footer {
+      opacity: 0;
+      pointer-events: none; /* 클릭 불가능 */
+    }
+    .icon {
+      margin-right: 0; /* 아이콘 정렬 조정 */
+    }
   }
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar.collapsed .headerText {
+  display: none; /* 헤더 텍스트 숨김 */
+}
+
+.sidebar.collapsed .footer {
+  opacity: 0; /* 텍스트 숨김 */
+  pointer-events: none;
+}
+
+.sidebar.collapsed .icon {
+  margin-right: 0;
 }
