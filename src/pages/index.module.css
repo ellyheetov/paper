@@ -1,24 +1,71 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.content {
-  padding: 50px;
-  overflow-y: auto;
-  height: 100vh;
-  box-sizing: border-box;
+.start {
+  max-width: 760px;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
 }
 
-.buttons {
+.start h1 {
+  margin-bottom: 0.75rem;
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.tagline {
+  margin-bottom: 4rem;
+  font-size: 1.0625rem;
+  color: var(--muted);
+}
+
+.start h2 {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.favorites {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
-@media screen and (max-width: 996px) {
-  .content {
-    margin-left: 0px;
-    width: 100%;
-  }
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 80px;
+  font-size: 0.8125rem;
+  color: inherit;
+}
+
+.tile:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  background: var(--glass);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  font-size: 2rem;
+  transition: transform 0.25s ease;
+}
+
+.tile:hover .icon {
+  transform: scale(1.08);
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

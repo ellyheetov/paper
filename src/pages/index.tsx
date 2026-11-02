@@ -1,23 +1,33 @@
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import { devposts } from '../data/devposts';
-import { blogposts } from '../data/blogposts';
-import { bookreviews } from '../data/bookreviews';
-import PostCardList from '../components/PostCardList';
-import BookCardList from '../components/BookCardList';
 
-export default function Home(): JSX.Element {
+type Section = {id: string; label: string; icon: string};
+
+// Safari 시작 페이지의 '즐겨찾기': 섹션 목록(docusaurus.config.ts) + GitHub
+export default function Home() {
+  const sections = useDocusaurusContext().siteConfig.customFields.sections as Section[];
+  const favorites = [
+    ...sections.map(({id, label, icon}) => ({label, to: `/${id}`, icon: <>{icon}</>})),
+    {label: 'GitHub', to: 'https://github.com/ellyheetov', icon: <img src="https://github.com/ellyheetov.png" alt="" />},
+  ];
+
   return (
     <Layout>
-      {/* 메인 컨텐츠 */}
-      <main className={styles.content}>
-        <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Dev Posts</h1>
-        <PostCardList posts={devposts.reverse()} />
-        <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Book Reviews</h1>
-        <BookCardList posts={bookreviews.reverse()} />
-        <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Blog Posts</h1>
-        <PostCardList posts={blogposts.reverse()} />
+      <main className={`container ${styles.start}`}>
+        <h1>Hi, There 👋🏻</h1>
+        <p className={styles.tagline}>뉴스, 경제, 개발 공부와 읽은 책을 기록하는 공간</p>
+        <h2>즐겨찾기</h2>
+        <div className={styles.favorites}>
+          {favorites.map(({label, to, icon}) => (
+            <Link key={label} to={to} className={styles.tile}>
+              <span className={styles.icon}>{icon}</span>
+              {label}
+            </Link>
+          ))}
+        </div>
       </main>
     </Layout>
-  )
+  );
 }

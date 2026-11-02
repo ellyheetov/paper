@@ -1,111 +1,63 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import type {Config, PluginConfig} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-require('dotenv').config();
+// 툴바 탭 = 섹션 = 폴더. 여기 한 줄 추가하면 탭(src/theme/Navbar), 목록 페이지, 홈 즐겨찾기가 같이 생김
+// (섹션 폴더에 글이 하나도 없으면 목록 페이지가 안 생겨 빌드가 깨지니 최소 1개 유지)
+const sections = [
+  {id: 'news', label: '뉴스', icon: '📰', description: '읽고 생각한 뉴스'},
+  {id: 'economy', label: '경제', icon: '📈', description: '경제 공부 노트'},
+  {id: 'dev', label: '개발', icon: '💻', description: '개발 공부와 트러블슈팅'},
+  {id: 'books', label: '독서', icon: '📚', description: '읽고 남긴 생각들'},
+];
 
 const config: Config = {
   title: 'Hi, There 👋🏻',
   tagline: 'welcome to my place',
   favicon: 'img/ibooks.ico',
-
-  // Set the production url of your site here
   url: 'https://ellyheetov.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/treasure',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ellyheetov', // Usually your GitHub org/user name.
-  projectName: 'treasure', // Usually your repo name.
+  baseUrl: '/treasure/',
+  organizationName: 'ellyheetov',
+  projectName: 'treasure',
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
-
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
-  // 추가 설정 (액세스 토큰 사용)
-  customFields: {
-    githubToken: process.env.GITHUB_TOKEN,
-  },
-  deploymentBranch: 'gh-pages', 
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko'],
-  },
+  i18n: {defaultLocale: 'ko', locales: ['ko']},
+  stylesheets: [
+    'https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
+  ],
+  customFields: {sections},
 
   presets: [
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          showLastUpdateTime: true,
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
+        docs: false,
+        blog: false,
+        theme: {customCss: './src/css/custom.css'},
       } satisfies Preset.Options,
     ],
   ],
 
+  plugins: sections.map(
+    ({id, label, description}): PluginConfig => [
+      '@docusaurus/plugin-content-blog',
+      {
+        id,
+        path: id,
+        routeBasePath: id,
+        blogTitle: label,
+        blogDescription: description,
+        blogSidebarCount: 0, // 카드 목록만, 사이드바/페이지네이션 없음
+        postsPerPage: 'ALL',
+        onUntruncatedBlogPosts: 'ignore',
+        onInlineAuthors: 'ignore', // 책 저자는 front matter에 inline으로 적음
+      },
+    ],
+  ),
+
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/door.png',
-    // navbar: {
-    //   title: 'Treasure',
-    //   logo: {
-    //     alt: 'My Site Logo',
-    //     src: 'img/ibooks.svg',
-    //   },
-    //   items: [
-    //     {
-    //       type: 'docSidebar',
-    //       sidebarId: 'devSidebar',
-    //       position: 'left',
-    //       label: 'DevLog',
-    //     },
-    //     {
-    //       type: 'docSidebar',
-    //       sidebarId: 'bookSidebar',
-    //       position: 'left',
-    //       label: 'Books',
-    //     },
-    //     {
-    //       to: '/blog', 
-    //       label: 'Blog', 
-    //       position: 'left'
-    //     },
-    //     {
-    //       href: 'https://github.com/ellyheetov',
-    //       label: 'GitHub',
-    //       position: 'right',
-    //     }
-    //   ],
-    // },
-    // prism: {
-    //   theme: prismThemes.github,
-    //   darkTheme: prismThemes.dracula,
-    // },
+    colorMode: {respectPrefersColorScheme: true},
   } satisfies Preset.ThemeConfig,
 };
 
