@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkpaper=globalThis.webpackChunkpaper||[]).push([[821],{8105:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/paper/economy","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"\uacbd\uc81c \uacf5\ubd80 \ub178\ud2b8","blogTitle":"\uacbd\uc81c"}}')}}]);

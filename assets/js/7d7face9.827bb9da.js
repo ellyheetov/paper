@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkpaper=globalThis.webpackChunkpaper||[]).push([[7371],{8738:a=>{a.exports=JSON.parse('{"blogBasePath":"/paper/english","blogTitle":"\uc601\uc5b4","authorsListPath":"/paper/english/authors"}')}}]);

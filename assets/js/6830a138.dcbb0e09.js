@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkpaper=globalThis.webpackChunkpaper||[]).push([[964],{9505:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/paper/english","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"\uc601\ubb38 \ub274\uc2a4\ub97c \uc77d\uace0 \uc601\uc5b4\ub85c \uc815\ub9ac\ud558\uae30","blogTitle":"\uc601\uc5b4"}}')}}]);
