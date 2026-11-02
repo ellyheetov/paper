@@ -1,9 +1,11 @@
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import Calendar, {type Section as CalendarSection} from '../components/Calendar';
 import styles from './index.module.css';
 
-type Section = {id: string; label: string; icon: string};
+type Section = CalendarSection & {icon: string};
 
 // Safari 시작 페이지의 '즐겨찾기': 섹션 목록(docusaurus.config.ts) + GitHub
 export default function Home() {
@@ -17,7 +19,7 @@ export default function Home() {
     <Layout>
       <main className={`container ${styles.start}`}>
         <h1>Hi, There 👋🏻</h1>
-        <p className={styles.tagline}>뉴스, 경제, 개발 공부와 읽은 책을 기록하는 공간</p>
+        <p className={styles.tagline}>뉴스, 영어, 경제, 개발 공부와 읽은 책을 기록하는 공간</p>
         <h2>즐겨찾기</h2>
         <div className={styles.favorites}>
           {favorites.map(({label, to, icon}) => (
@@ -26,6 +28,10 @@ export default function Home() {
               {label}
             </Link>
           ))}
+        </div>
+        <h2 className={styles.spaced}>기록</h2>
+        <div className={styles.calendarSlot}>
+          <BrowserOnly>{() => <Calendar sections={sections} />}</BrowserOnly>
         </div>
       </main>
     </Layout>

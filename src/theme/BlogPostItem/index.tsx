@@ -14,7 +14,7 @@ function Comments() {
     script.src = 'https://utteranc.es/client.js';
     script.async = true;
     script.crossOrigin = 'anonymous';
-    script.setAttribute('repo', 'ellyheetov/treasure');
+    script.setAttribute('repo', 'ellyheetov/paper');
     script.setAttribute('issue-term', 'url');
     script.setAttribute('label', 'comment');
     script.setAttribute('theme', colorMode === 'dark' ? 'github-dark' : 'github-light');

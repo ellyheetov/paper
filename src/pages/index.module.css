@@ -18,6 +18,15 @@
   color: var(--muted);
 }
 
+.spaced {
+  margin-top: 3rem;
+}
+
+/* 달력은 브라우저에서만 그려지니 자리를 미리 잡아 화면이 튀지 않게 */
+.calendarSlot {
+  min-height: 300px;
+}
+
 .start h2 {
   font-size: 1rem;
   color: var(--muted);
