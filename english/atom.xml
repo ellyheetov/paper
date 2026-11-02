@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ellyheetov.github.io/paper/english</id>
+    <title>Hi, There 👋🏻 Blog</title>
+    <updated>2026-11-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ellyheetov.github.io/paper/english"/>
+    <subtitle>Hi, There 👋🏻 Blog</subtitle>
+    <icon>https://ellyheetov.github.io/paper/img/ibooks.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[English News Notes Template]]></title>
+        <id>https://ellyheetov.github.io/paper/english/test</id>
+        <link href="https://ellyheetov.github.io/paper/english/test"/>
+        <updated>2026-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[영문 기사 하나를 읽고 영어로 요약하고, 새로 배운 표현을 정리하는 틀.]]></summary>
+        <content type="html"><![CDATA[<p>영문 기사를 읽고 영어로 요약하는 연습용 틀이다. 기사 내용 정리와 영어 공부를 한 번에 하는 게 목표.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-article">📰 Article<a href="https://ellyheetov.github.io/paper/english/test#-article" class="hash-link" aria-label="📰 Article에 대한 직접 링크" title="📰 Article에 대한 직접 링크">​</a></h2>
+<ul>
+<li><strong>Headline</strong>: Write the headline here</li>
+<li><strong>Source / Date</strong>: Outlet, publish date</li>
+<li><strong>Link</strong>: Article URL</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-summary-in-english">✍️ Summary in English<a href="https://ellyheetov.github.io/paper/english/test#%EF%B8%8F-summary-in-english" class="hash-link" aria-label="✍️ Summary in English에 대한 직접 링크" title="✍️ Summary in English에 대한 직접 링크">​</a></h2>
+<p>Summarize the article in three sentences, in your own words. Try not to copy phrases directly from the article.</p>
+<ol>
+<li>What happened?</li>
+<li>Why does it matter?</li>
+<li>What might happen next?</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-key-expressions">🔤 Key Expressions<a href="https://ellyheetov.github.io/paper/english/test#-key-expressions" class="hash-link" aria-label="🔤 Key Expressions에 대한 직접 링크" title="🔤 Key Expressions에 대한 직접 링크">​</a></h2>
+<table><thead><tr><th>Expression</th><th>뜻</th><th>Example</th></tr></thead><tbody><tr><td><em>rein in</em></td><td>억제하다, 통제하다</td><td>The central bank moved to rein in inflation.</td></tr><tr><td><em>on the heels of</em></td><td>~의 직후에</td><td>The decision came on the heels of weak jobs data.</td></tr><tr><td><em>weigh on</em></td><td>~에 부담을 주다</td><td>Higher rates continue to weigh on housing demand.</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-한-줄-요약">🇰🇷 한 줄 요약<a href="https://ellyheetov.github.io/paper/english/test#-%ED%95%9C-%EC%A4%84-%EC%9A%94%EC%95%BD" class="hash-link" aria-label="🇰🇷 한 줄 요약에 대한 직접 링크" title="🇰🇷 한 줄 요약에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>기사의 핵심을 한국어 한 문장으로.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-my-take">💬 My Take<a href="https://ellyheetov.github.io/paper/english/test#-my-take" class="hash-link" aria-label="💬 My Take에 대한 직접 링크" title="💬 My Take에 대한 직접 링크">​</a></h2>
+<p>Write one or two sentences about what you think, in English.</p>]]></content>
+    </entry>
+</feed>

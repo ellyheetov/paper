@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkpaper=globalThis.webpackChunkpaper||[]).push([[640],{5574:a=>{a.exports=JSON.parse('{"blogBasePath":"/paper/economy","blogTitle":"\uacbd\uc81c","authorsListPath":"/paper/economy/authors"}')}}]);

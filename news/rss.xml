@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Hi, There 👋🏻 Blog</title>
+        <link>https://ellyheetov.github.io/paper/news</link>
+        <description>Hi, There 👋🏻 Blog</description>
+        <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ko</language>
+        <item>
+            <title><![CDATA[뉴스 읽기 템플릿]]></title>
+            <link>https://ellyheetov.github.io/paper/news/test</link>
+            <guid>https://ellyheetov.github.io/paper/news/test</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[기사 하나를 읽고 요약, 의미, 내 생각, 더 찾아볼 것 순서로 정리하는 틀.]]></description>
+            <content:encoded><![CDATA[<p>뉴스를 그냥 읽고 넘기면 하루만 지나도 기억에 남지 않는다. 기사 하나를 고르고, 아래 순서대로 짧게라도 정리해 두면 나중에 흐름을 이어서 볼 수 있다. 이 글은 그 정리 틀을 확인하기 위한 테스트 글이다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-헤드라인">📰 헤드라인<a href="https://ellyheetov.github.io/paper/news/test#-%ED%97%A4%EB%93%9C%EB%9D%BC%EC%9D%B8" class="hash-link" aria-label="📰 헤드라인에 대한 직접 링크" title="📰 헤드라인에 대한 직접 링크">​</a></h2>
+<ul>
+<li><strong>기사 제목</strong>: 여기에 기사 제목을 적는다</li>
+<li><strong>출처 / 날짜</strong>: 언론사, 발행일</li>
+<li><strong>분야</strong>: 경제 · 기술 · 사회 · 국제 중 하나</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-세-줄-요약">🧾 세 줄 요약<a href="https://ellyheetov.github.io/paper/news/test#-%EC%84%B8-%EC%A4%84-%EC%9A%94%EC%95%BD" class="hash-link" aria-label="🧾 세 줄 요약에 대한 직접 링크" title="🧾 세 줄 요약에 대한 직접 링크">​</a></h2>
+<ol>
+<li>무슨 일이 있었나</li>
+<li>누가, 왜 그렇게 했나</li>
+<li>앞으로 어떻게 될 것으로 보나</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-왜-중요한가">💡 왜 중요한가<a href="https://ellyheetov.github.io/paper/news/test#-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%9C%EA%B0%80" class="hash-link" aria-label="💡 왜 중요한가에 대한 직접 링크" title="💡 왜 중요한가에 대한 직접 링크">​</a></h2>
+<p>이 소식이 나의 일, 내 돈, 내가 관심 있는 분야에 어떤 영향을 주는지 한두 문단으로 적는다. 숫자가 나온다면 그 숫자가 큰 건지 작은 건지 비교 대상을 함께 적어 두면 좋다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-내-생각">🤔 내 생각<a href="https://ellyheetov.github.io/paper/news/test#-%EB%82%B4-%EC%83%9D%EA%B0%81" class="hash-link" aria-label="🤔 내 생각에 대한 직접 링크" title="🤔 내 생각에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>기사의 주장과 내 생각을 구분해서 적기.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-더-찾아볼-것">🔎 더 찾아볼 것<a href="https://ellyheetov.github.io/paper/news/test#-%EB%8D%94-%EC%B0%BE%EC%95%84%EB%B3%BC-%EA%B2%83" class="hash-link" aria-label="🔎 더 찾아볼 것에 대한 직접 링크" title="🔎 더 찾아볼 것에 대한 직접 링크">​</a></h2>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->관련 용어 정리</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->같은 주제의 다른 언론사 기사 비교</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->한 달 뒤 후속 보도 확인</li>
+</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

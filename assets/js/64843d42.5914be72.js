@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktreasure=self.webpackChunktreasure||[]).push([[602],{8405:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/treasure/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

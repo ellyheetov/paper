@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ellyheetov.github.io/paper/books</id>
+    <title>Hi, There 👋🏻 Blog</title>
+    <updated>2024-12-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ellyheetov.github.io/paper/books"/>
+    <subtitle>Hi, There 👋🏻 Blog</subtitle>
+    <icon>https://ellyheetov.github.io/paper/img/ibooks.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[함께자라기]]></title>
+        <id>https://ellyheetov.github.io/paper/books/Grow_Together</id>
+        <link href="https://ellyheetov.github.io/paper/books/Grow_Together"/>
+        <updated>2024-12-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[이 책에서는 일하는 방법의 핵심과 통찰을 다룬다. 개인의 힘으로는 극복할 수 없는 한계를 깨뜨리려면 모두가 같이 발전해야 한다. 나 그리고 더 나아가 남을 변화시키는 삶에 대해 얘기한다.]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chatper-1-자라기학습">Chatper 1. 자라기(학습)<a href="https://ellyheetov.github.io/paper/books/Grow_Together#chatper-1-%EC%9E%90%EB%9D%BC%EA%B8%B0%ED%95%99%EC%8A%B5" class="hash-link" aria-label="Chatper 1. 자라기(학습)에 대한 직접 링크" title="Chatper 1. 자라기(학습)에 대한 직접 링크">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-피드백과-교정">👩🏻‍🔧 피드백과 교정<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%ED%94%BC%EB%93%9C%EB%B0%B1%EA%B3%BC-%EA%B5%90%EC%A0%95" class="hash-link" aria-label="👩🏻‍🔧 피드백과 교정에 대한 직접 링크" title="👩🏻‍🔧 피드백과 교정에 대한 직접 링크">​</a></h3>
+<ul>
+<li>피드백을 짧은 주기로 얻는 것, 그리고 실수를 교정할 기회가 있는 것</li>
+<li>내가 잘했나 못 했나 알지 못하면 행동을 조정할 수 없다. 학습에서는 피드백과 적절한 피드백 시점이 중요하다.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-부트스트랩핑bootstrapping">🪜 부트스트랩핑(bootstrapping)<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9%ED%95%91bootstrapping" class="hash-link" aria-label="🪜 부트스트랩핑(bootstrapping)에 대한 직접 링크" title="🪜 부트스트랩핑(bootstrapping)에 대한 직접 링크">​</a></h3>
+<ul>
+<li>매일 어제보다 나은 내가 되기 위한 과정</li>
+<li>앞에서 만든 결과물을 나의 일부로 만들어, 다음 단계에 보탬이 되도록 한다.</li>
+<li>3가지 작업<!-- -->
+<ul>
+<li>A작업 : 조직이 하기로 되어있는 일을 하는 것 - 자동차 만들기</li>
+<li>B작업: A작업을 개선 하는 것 - 제품 만드는 사이클에서 시간과 품질을 개선, 시스템 설계</li>
+<li>C작업: B작업을 개선하는 것 - 개선 사이클 자체의 시간과 품질을 개선</li>
+</ul>
+</li>
+<li>이걸 잘하려면?<!-- -->
+<ul>
+<li>자신이 이미 갖고 있는 것들을 활용하기 - 이미 습득한 지식을 충돌시키고 연결하라.</li>
+<li>외부 자극을 재빨리 자기화 하기</li>
+<li>작업을 되돌아보는 프로세스 만들기</li>
+<li>사이클 타임을 줄여서 피드백 자주 받기</li>
+<li>환경을 점진적으로 개선하기, 완벽에 집착해선 안된다.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-학습하기-힘든-직업이-살아-남는다">🤖 학습하기 힘든 직업이 살아 남는다.<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0-%ED%9E%98%EB%93%A0-%EC%A7%81%EC%97%85%EC%9D%B4-%EC%82%B4%EC%95%84-%EB%82%A8%EB%8A%94%EB%8B%A4" class="hash-link" aria-label="🤖 학습하기 힘든 직업이 살아 남는다.에 대한 직접 링크" title="🤖 학습하기 힘든 직업이 살아 남는다.에 대한 직접 링크">​</a></h3>
+<ul>
+<li>인공지능 시스템에 유리한 조건<!-- -->
+<ul>
+<li>목표가 분명, 객관적, 정적</li>
+<li>매 순간 선택할 수 있는 행동/선태의 종류가 유한</li>
+<li>매 순간 자신의 목표에 얼마나 도달했는지 측정 가능</li>
+<li>예상치 못한 외부 요소가 없는 환경</li>
+<li>과거의 선택과 결과에 대한 구조화된 기록이 많음</li>
+</ul>
+</li>
+<li>학습하기 쉬운 영역 : 피드백이 주어지고, 작업이 반복되며, 객관적인 분석이 가능</li>
+<li>학습하기 어려운 영역: 독창성, 사회적 민감성(타인의 반응을 알아차리고 그 사람의 반응을 이해하기), 협상, 설득, 타인을 돕고 돌보기</li>
+<li>컴퓨터화 할 수 있을 수록 (= 학습하기 쉬운 영역 일수록) 임금이 낮고 대체되기 쉽다.</li>
+<li>혼자서 딱 정해진 일만 할 수 있는 환경이 축복이 아니라 저주가 될 수 있다. 암묵지와 직관을 배우고 수련하는 방법을 배워야 한다.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-달인이-되려면">🥼 달인이 되려면<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EB%8B%AC%EC%9D%B8%EC%9D%B4-%EB%90%98%EB%A0%A4%EB%A9%B4" class="hash-link" aria-label="🥼 달인이 되려면에 대한 직접 링크" title="🥼 달인이 되려면에 대한 직접 링크">​</a></h3>
+<ul>
+<li>동기 : 실력을 개선하려는 동기</li>
+<li>피드백 : 구체적인 피드백을 적절한 시기에</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-전문가가-되려면">🥼 전문가가 되려면<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%A0%84%EB%AC%B8%EA%B0%80%EA%B0%80-%EB%90%98%EB%A0%A4%EB%A9%B4" class="hash-link" aria-label="🥼 전문가가 되려면에 대한 직접 링크" title="🥼 전문가가 되려면에 대한 직접 링크">​</a></h3>
+<ul>
+<li>타당성: 직관이 적용되는 영역에 어느정도 인과관계와 규칙성이 존재<!-- -->
+<ul>
+<li>타당성을 높이려면? 변수를 제한하고 실험을 하면서 규칙성과 인과관계를 찾으려고 노력해야 함</li>
+</ul>
+</li>
+<li>피드백: 자신이 내린 직관적 판단에 대해 빨리 피드백을 받고 이를 통해 학습할 기회가 주어지는 환경<!-- -->
+<ul>
+<li>피드백을 높이려면? 직접 피드백을 적극적으로 구해야 함</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-의도적-수련deliberate-practice">🏌🏻‍♀️ 의도적 수련(Deliberate Practice)<a href="https://ellyheetov.github.io/paper/books/Grow_Together#%EF%B8%8F-%EC%9D%98%EB%8F%84%EC%A0%81-%EC%88%98%EB%A0%A8deliberate-practice" class="hash-link" aria-label="🏌🏻‍♀️ 의도적 수련(Deliberate Practice)에 대한 직접 링크" title="🏌🏻‍♀️ 의도적 수련(Deliberate Practice)에 대한 직접 링크">​</a></h3>
+<ul>
+<li>의도적 수련은 어떻게 해야하는가? 효과적인 의도적 수련이 되기 위해서는?</li>
+<li>적절한 난이도<!-- -->
+<ul>
+<li>작업의 난이도와 실력이 비례할 때 가장 몰입할 수 있다. 적절하게 난이도와 실력을 조정해 나가야 한다. 이렇게 감정 상태를 살피고 조치를 취하는 사이클을 계속 돌아야 한다. 난이도를 일시적으로 난추어 몰입을 경험한 후, 난이도를 높이는 경우 더 좋은 학습효과가 생긴다. 또한, 쉬운 작업을 먼저 하는 편이 정확도가 높다.</li>
+<li>팀장들에게는 팀원의 상태를 파악하고 그 몰입으로 가게 도와주는 것 자체가 고도의 의도적 수련이 될 수 있다.</li>
+</ul>
+</li>
+<li>인지 부하 이론(cognitive Load Theory)<!-- -->
+<ul>
+<li>학습 시 불필요하게 인지적인 부담을 주면 어떤 것도 제대로 학습하기 어렵다.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-전문성을-효과적으로-뽑아내는-방법">⏏️ 전문성을 효과적으로 뽑아내는 방법<a href="https://ellyheetov.github.io/paper/books/Grow_Together#%EF%B8%8F-%EC%A0%84%EB%AC%B8%EC%84%B1%EC%9D%84-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%BD%91%EC%95%84%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95" class="hash-link" aria-label="⏏️ 전문성을 효과적으로 뽑아내는 방법에 대한 직접 링크" title="⏏️ 전문성을 효과적으로 뽑아내는 방법에 대한 직접 링크">​</a></h3>
+<ul>
+<li>구체체적인 사건에 대해 말하도록 유도하는 것</li>
+<li>전문가들의 전문성을 뽑아내고 적용하는 것이 자신의 전문성을 빨리 높이는 방법이다.</li>
+<li>이미 잘하는 사람을 관찰하고 인터뷰하는 것부터 시작하는 것이 큰 도움이 된다.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-실수는-예방하는-것이-아니라-관리하는-것이다">🫳🏻 실수는 예방하는 것이 아니라 관리하는 것이다.<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%8B%A4%EC%88%98%EB%8A%94-%EC%98%88%EB%B0%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%95%84%EB%8B%88%EB%9D%BC-%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B4%EB%8B%A4" class="hash-link" aria-label="🫳🏻 실수는 예방하는 것이 아니라 관리하는 것이다.에 대한 직접 링크" title="🫳🏻 실수는 예방하는 것이 아니라 관리하는 것이다.에 대한 직접 링크">​</a></h3>
+<ul>
+<li>실수 관리 문화: 실수가 나쁜 결과를 내기 전에 빨리 회복하도록 돕고, 실수를 공개하고, 실수에 대해 서로 이야기 하고 배울 수 있는 분위기</li>
+<li>실수 훈련: 실수를 최소화 하는 것보다 오히려 실수를 유도하고 경험하는 것을 격려, 실수 사례를 배우고 어떻게 대처하는가를 가르치는 교육이 더 효과적</li>
+<li>스스로에게 질문: 자신의 실수 문화를 예방에서 관리로 옮겨가려면 어떻게 해야 할까?</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-왜-배워도-못할-까">🤷🏻‍♀️ 왜 배워도 못할 까?<a href="https://ellyheetov.github.io/paper/books/Grow_Together#%EF%B8%8F-%EC%99%9C-%EB%B0%B0%EC%9B%8C%EB%8F%84-%EB%AA%BB%ED%95%A0-%EA%B9%8C" class="hash-link" aria-label="🤷🏻‍♀️ 왜 배워도 못할 까?에 대한 직접 링크" title="🤷🏻‍♀️ 왜 배워도 못할 까?에 대한 직접 링크">​</a></h3>
+<ul>
+<li>인지적 작업 분석<!-- -->
+<ul>
+<li>대부분의 훈련은 6개월 정도가 지나면 효과가 거의 사라진다. 전문가는 자신의 지식중 70%는 가르치지 않고서 다 가르쳤다고 생각한다. 자신이 하는 일이 반복적으로 몸에 익고 자동화되어서 결국 암묵적이 되어버린다. 오히려 인식이 없어지는 것이다. 문제를 해결 할 때 어떤 과정을 거치는지 자신의 머릿속을 관찰하고, 질문을 던지고, 분석하는 것이 중요하다.</li>
+</ul>
+</li>
+<li>사회적 자본 : 신뢰, 네트워크<!-- -->
+<ul>
+<li>어떤 기술적 실천법이라도 그걸 현실에서 적용하기 위해서는 사회적 자본과 기술이 필요하다. 사회적 자본은 신뢰를 의미한다. 신뢰가 깨어져 있다면 어떤 행동을 해도 악의적으로 보인다. 사회적 네트워크 또한 자본이다. 뛰어난 소프트웨어 개발자일 수록 타인과 인터렉션에 더 많은 시간을  쓴다.</li>
+</ul>
+</li>
+<li>사회적 기술 : 도움 받기, 피드백 주고받기, 영향력 미치기, 가르치고 배우기, 위임하기 등</li>
+<li>사회적 기술은 어떻게 훈련할까?<!-- -->
+<ul>
+<li>주변 사람들과의 인터렉션을 신경쓰자. 기록하고, 복기하고, 다르게 인터랙션한다고 하면 어떻게 했으면 좋았을까를 생각해 보는 것도 좋은 훈련이 된다.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chatper-2-함께협력">Chatper 2. 함께(협력)<a href="https://ellyheetov.github.io/paper/books/Grow_Together#chatper-2-%ED%95%A8%EA%BB%98%ED%98%91%EB%A0%A5" class="hash-link" aria-label="Chatper 2. 함께(협력)에 대한 직접 링크" title="Chatper 2. 함께(협력)에 대한 직접 링크">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-소프트웨어-관리자의-개선-우선-순위">📑 소프트웨어 관리자의 개선 우선 순위<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B4%80%EB%A6%AC%EC%9E%90%EC%9D%98-%EA%B0%9C%EC%84%A0-%EC%9A%B0%EC%84%A0-%EC%88%9C%EC%9C%84" class="hash-link" aria-label="📑 소프트웨어 관리자의 개선 우선 순위에 대한 직접 링크" title="📑 소프트웨어 관리자의 개선 우선 순위에 대한 직접 링크">​</a></h3>
+<ul>
+<li>관리 → 시스템 → 사람 → 도구</li>
+<li>가장 만만하고 쉬운 (자신으로부터 가장 먼 것) '도구'에 신경 쓰는 것 보다, 자신을 돌아보고 관리 방식 자체를 살펴보고 개선하는 것이 출발이 된다.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-추상화">📦 추상화<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%B6%94%EC%83%81%ED%99%94" class="hash-link" aria-label="📦 추상화에 대한 직접 �링크" title="📦 추상화에 대한 직접 링크">​</a></h3>
+<p>뛰어난 프로그래머는 보통 실력을 가진 프로그래머에 비해 커뮤니케이션, 협력 능력이 뛰어난다. 게다가 이에 오랜 시간을 들이기 까지 한다.
+여러명에서 작업하면 서로 시각이 다르기 떄문에 다른 시각을 연결해 줄 다리가 필요하고, 그 다리에는 필연적으로 추상화의 요소가 있게 된다.
+추상화를 높일 수 있는 방법은 '다른 시각을 가진 두 사람이 협력하기'이다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-공유">🔗 공유<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EA%B3%B5%EC%9C%A0" class="hash-link" aria-label="🔗 공유에 대한 직접 링크" title="🔗 공유에 대한 직접 링크">​</a></h3>
+<p>신뢰 자산이 높은 조직은 커뮤니케이션 효율이나 생산성이 높다. 그렇다면 어떻게 신뢰를 쌓을 수 있을까?
+신뢰를 쌓는 데 사용되는 방법은 투명성과 공유, 인터렉션이다. 투명하게 서로 공유하고 그에 대해 피드백을 주고 받으며 인터렉션을 하는 것이다. (=소통신뢰)
+그런데 이런 공유가 신뢰를 떨어뜨리기도 한다.</p>
+<ul>
+<li>복수공유(share multiple)</li>
+<li>최고 공유(share best)</li>
+<li>하나공유(share one)</li>
+</ul>
+<p>하나만 공유하는 경우 '작업물 = 나' 가 되어 방어적으로 대응하며, 상대도 솔직한 피드백을 주기 어려워서 신뢰도가 떨어진다. 반면, 복수 공유는 그런 불안감이 상대적으로 적고, 신뢰도가 높아진다.
+그냥 공유만 한다고 신뢰가 저절로 쌓이는 것이 아니라는 것을 이해하고, 어떻게 공유할 것인지 고민해보자.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-객관성의-주관성">👱🏻‍♀️ 객관성의 주관성<a href="https://ellyheetov.github.io/paper/books/Grow_Together#%EF%B8%8F-%EA%B0%9D%EA%B4%80%EC%84%B1%EC%9D%98-%EC%A3%BC%EA%B4%80%EC%84%B1" class="hash-link" aria-label="👱🏻‍♀️ 객관성의 주관성에 대한 직접 링크" title="👱🏻‍♀️ 객관성의 주관�성에 대한 직접 링크">​</a></h3>
+<p>의사결정을 하는 과정에 감정적이고 직관적인 부분이 큰 역할을 하고 있으며, 그런 감정적인 부분이 배제된다면 의사결정을 제대로 할 수 없다.
+설득을 위해 객관성이 필요하다고 생각한다. 하지만 객관성이라고 하는 것은 상대적이다. 내가 생각하는 객관이 상대의 객관이 아닐 수 있고, 그렇기 때문에 설득에 성공하려면 우선 그 사람을 이해하는 것에서 출발해야 한다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-코칭">👨🏻‍🏫 코칭<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%BD%94%EC%B9%AD" class="hash-link" aria-label="👨🏻‍🏫 코칭에 대한 직접 링크" title="👨🏻‍🏫 코칭에 대한 직접 링크">​</a></h3>
+<p>용기를 내어 질문한 동료에게 '이것도 모르세요?' 라고 말하면 어떤 상황이 벌어질까? 대부분의 경우 다시 질문을 하지 않는다.
+대화를 통해 상대가 어떤 식으로 이해하고 있는지, 모르는 문제를 만났을 때 어떻게 해결하려고 시도하는지, 자신의 답이 맞는지를 어떻게 확인하는지 등을 알 수 있다. 그 사람의 사고 과정과 전략을 이해함으로써 더 정확하고 효과적인 제안을 할 수 있게 된다.
+꼭 전문지식이 없이도 코칭을 할 수 있다. 행동을 유도하는 대화 만으로 코칭은 충분하다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-탑다운top-down-방식과-바텀업bottom-up방식">🔝 탑다운(top-down) 방식과 바텀업(bottom-up)방식<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%ED%83%91%EB%8B%A4%EC%9A%B4top-down-%EB%B0%A9%EC%8B%9D%EA%B3%BC-%EB%B0%94%ED%85%80%EC%97%85bottom-up%EB%B0%A9%EC%8B%9D" class="hash-link" aria-label="🔝 탑다운(top-down) 방식과 바텀업(bottom-up)방식에 대한 직접 링크" title="🔝 탑다운(top-down) 방식과 바텀업(bottom-up)방식에 대한 직접 링크">​</a></h3>
+<p>세상의 문제는 두종류로 나뉘어진다. 잘 정의된 문제(well-defined)와 잘 정의되지 않은(ill-defined)문제.
+잘 정의되지 않은 문제는 탑다운과 바텀업을 섞어서 접근한다. 현재 문제가 얼마나 어려운가를 인식하고 문제 풀이 전략을 상황에 맞게 능동적으로 선택하거나 변경해야 한다. 탑다운 방식은 중간 중간의 바통터치에 많은 오버헤드가 발생한다. 오버헤드를 낮추려면 협력 모델이 바통 터치 모형에 기반하지 않고 삼투압 모형으로 가게된다. 처음부터 깔끔하고 체계적으로 진행하기를 고민하기 보다, 어떻게 하면 처음부터 각 단계(ex. 분석, 설계, 구현, 테스트)를 모두 왔다갔다할 수 있을 까를 고민해야 한다.</p>
+<ul>
+<li>삼투압적 의사소통: '배어드는' 소통방식</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-전문가-팀의-실패">🚌 전문가 팀의 실패<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%A0%84%EB%AC%B8%EA%B0%80-%ED%8C%80%EC%9D%98-%EC%8B%A4%ED%8C%A8" class="hash-link" aria-label="🚌 전문가 팀의 실패에 대한 직접 링크" title="🚌 전문가 팀의 실패에 대한 직접 링크">​</a></h3>
+<p>'버스에 사람태우기'라는 메타포가 있다. 버스에 적절한 사람을 태우는 것이 우선이고, 어디로 갈지 정하는 건 그 다음이라는 말이다.
+과연 전문가들을 모아 둔다면 더 잘 할 수 있을까? 중간에 협력을 개입하는 사람이 없다면 전문가들로 구성된 팀은 정보 공유가 안 되어서 오히려 성과가 떨어질 수 있다. 정보를 공유하고 협력을 잘하기 위한 명시적인 도움이 필요하다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-구글이-밝힌-탁월한-팀의-비밀">🔑 구글이 밝힌 탁월한 팀의 비밀<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EA%B5%AC%EA%B8%80%EC%9D%B4-%EB%B0%9D%ED%9E%8C-%ED%83%81%EC%9B%94%ED%95%9C-%ED%8C%80%EC%9D%98-%EB%B9%84%EB%B0%80" class="hash-link" aria-label="🔑 구글이 밝힌 탁월한 팀의 비밀에 대한 직접 링크" title="🔑 구글이 밝힌 탁월한 팀의 비밀에 대한 직접 링크">​</a></h3>
+<ul>
+<li>뛰어난 관리자의 특징을 찾는 옥시전 프로젝트(Oxygen Project)의 결과<!-- -->
+<ul>
+<li>팀에 누가 있는지(전문가, 내향/외향, 지능 등)보다 팀원들이 서로 어떻게 상호작용하고 자신의 일을 어떻게 바라보는지가 훨씬 중요했다.</li>
+<li>5가지 성공적 팀의 특징을 찾았은데, 그중 압도적으로 높은 예측력을 보인 변수는 팀의 심리적 안전감(Psychological Safety)이었다.<!-- -->
+<ul>
+<li>심리적 안전감이란? 내 생각이나 의견, 질문, 걱정, 혹은 실수가 드러났을 때 처벌받거나 놀림받지 않을 거라는 믿음을 말한다.</li>
+</ul>
+</li>
+<li>팀 토론 등 특별히 고안된 활동을 통해 심리적 안전감을 개선할 수 있었다.</li>
+</ul>
+</li>
+</ul>
+<p>그렇다면 심리적 안전감을 높이려면 어떻게 해야 할까?</p>
+<ul>
+<li>토론 주제를 안전한 환경에서 이야기하게 해주는 것</li>
+<li>열린 대화를 시작하는 것</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-학습-속도">📈 학습 속도<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%ED%95%99%EC%8A%B5-%EC%86%8D%EB%8F%84" class="hash-link" aria-label="📈 학습 속도에 대한 직접 링크" title="📈 학습 속도에 대한 직접 링크">​</a></h3>
+<ul>
+<li>학습 속도에 영향을 미치는 요소<!-- -->
+<ul>
+<li>학습 환경: 학습에 대한 태도, 심리적 보호</li>
+<li>리더: 학습 환경을 만들 수 있는 리더가 필요하다.</li>
+</ul>
+</li>
+<li>학습 속도에 영향을 미치지 않은 요소<!-- -->
+<ul>
+<li>교육 배경, 경험, 경력 연차</li>
+</ul>
+</li>
+<li>현실에서 학습 속도를 개선하려면?<!-- -->
+<ul>
+<li>학습 환경 만들기</li>
+<li>학습 공동체 구축하기</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-인지적-편향">🆚 인지적 편향<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%9D%B8%EC%A7%80%EC%A0%81-%ED%8E%B8%ED%96%A5" class="hash-link" aria-label="🆚 인지적 편향에 대한 직접 링크" title="🆚 인지적 편향에 대한 직접 링크">​</a></h3>
+<ul>
+<li>통상 시간을 추정할 때 우리는 대푯값으로 최빈값을 선택하는 경향이 있다.</li>
+<li>일의 소요 시간을 추정할 때 사람들이 낙과적으로 추정하는 경향이 있다.</li>
+<li>그럴싸한 추정치(best guess)와 자신이 기대하는 최선의 상황(best case scenario)를 추정치는 큰 차이가 없다.</li>
+<li>직관의 허점<!-- -->
+<ul>
+<li>'그리고(AND)' 조건의 사건은 확률을 과대평가하는 경향이 있다.</li>
+<li>'또는(OR)' 조건의 사건은 확률을 과소평가하는 경향이 있다.</li>
+</ul>
+</li>
+</ul>
+<p>12명의 사람과 12가지의 일이 있다고 가정해 보자. 고전적인 방식에서는 12명이 각자 한 가지 일을 맡아 진행하지만, 애자일 방식에서는 일을 공유하고 협력한다. 애자일에서는 일을 먼저 끝낸 사람이 다른 사람을 도와주므로, 전체 작업이 제때 완료될 확률이 높아진다. 또한, 애자일은 지식을 공유하여 프로젝트 속도를 높이는데, 이는 모두가 함께 이득을 보는 '또는' 확률에 해당한다. 애자일은 긍정적인 결과에 대해 '그리고' 확률을 '또는' 확률로 바꾸고, 부정적인 상황에서는 그 반대로 적용하는 특징이 있다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="chatper-3-애자일">Chatper 3. 애자일<a href="https://ellyheetov.github.io/paper/books/Grow_Together#chatper-3-%EC%95%A0%EC%9E%90%EC%9D%BC" class="hash-link" aria-label="Chatper 3. 애자일에 대한 직접 링크" title="Chatper 3. 애자일에 대한 직접 링크">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-애자일-이란">🎯 애자일 이란?<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%95%A0%EC%9E%90%EC%9D%BC-%EC%9D%B4%EB%9E%80" class="hash-link" aria-label="🎯 애자일 이란?에 대한 직접 링크" title="🎯 애자일 이란?에 대한 직접 링크">​</a></h3>
+<ul>
+<li>소프트웨어 개발 방법론</li>
+<li>'기민한' 혹은 '민첩한' 뜻으로 번역한다. 예상하지 못했던 상황이 생겼을 때 대응을 잘 할 수 있다는 뜻이므로 일반적인 '빠른'과는 차별성이 있다.</li>
+</ul>
+<p>애자일은 불확실성이 클 때 우리가 어떻게 해야 하는지를 고민한 결과물이다. 좀 더 짧은 주기로 더 다양한 사람들로 부터 더 자주 그리고 더 일찍 피드백을 받는 것으로 정리할 수 있다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-애자일을-어떻게-적용할-수-있을-까">🏁 애자일을 어떻게 적용할 수 있을 까?<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%95%A0%EC%9E%90%EC%9D%BC%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%81%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84-%EA%B9%8C" class="hash-link" aria-label="🏁 애자일을 어떻게 적용할 수 있을 까?에 대한 직접 링크" title="🏁 애자일을 어떻게 적용할 수 있을 까?에 대한 직접 링크">​</a></h3>
+<p>애자일이 불확실성을 다루는 핵심 구동 원리는 <strong>학습</strong>과 <strong>협력</strong> 즉, 함께(협력) 자라기 이다. 불확실성이 높을 수록 목표점에 도달하기까지 나의 위치를 계속 확인하며 이동하면서 배워 나가야 한다. 또한, 서로의 업무를 공유하고 상호검토하는 협력을 통해 문제가 생길 확률을 '그리고' 조건으로 바꾼다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-애자일의-핵심-원리---고객에게-매일-가치를-전하라">💌 애자일의 핵심 원리 - 고객에게 매일 가치를 전하라.<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%95%A0%EC%9E%90%EC%9D%BC%EC%9D%98-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC---%EA%B3%A0%EA%B0%9D%EC%97%90%EA%B2%8C-%EB%A7%A4%EC%9D%BC-%EA%B0%80%EC%B9%98%EB%A5%BC-%EC%A0%84%ED%95%98%EB%9D%BC" class="hash-link" aria-label="💌 애자일의 핵심 원리 - 고객에게 매일 가치를 전하라.에 대한 직접 링크" title="💌 애자일의 핵심 원리 - 고객에게 매일 가치를 전하라.에 대한 직접 링크">​</a></h3>
+<ol>
+<li><strong>학습 측면</strong>: '매일' 가치를 전하는 것은 학습 빈도를 높이는 것을 의미하며, 불확실성이 클수록 자주 피드백을 받아야 한다. 진정한 가치를 전달해야 정확한 피드백을 받고, 이는 빠른 학습과 성장을 가능하게 한다. 시작부터 빈번한 피드백을 받으면 학습의 복리 효과를 얻을 수 있다,</li>
+<li><strong>협력 측면</strong>: '고객'은 넓게 해석되어 이해관계자를 포함하며, 협력을 통해 가치를 전달하는 것이 중요하다. 가치를 전달하면 신뢰가 쌓이고 협력이 원활해지며, 의사소통도 명확해진다.</li>
+</ol>
+<p>결국, 애자일의 핵심은 함께 자라며 성장하는 과정이며, 이를 통해 더 나은 협력과 성과를 이룰 수 있다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-애자일-도입-성공-요인">👯 애자일 도입 성공 요인<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%95%A0%EC%9E%90%EC%9D%BC-%EB%8F%84%EC%9E%85-%EC%84%B1%EA%B3%B5-%EC%9A%94%EC%9D%B8" class="hash-link" aria-label="👯 애자일 도입 성공 요인에 대한 직접 링크" title="👯 애자일 도입 성공 요인에 대한 직접 링크">​</a></h3>
+<ul>
+<li>고객 참여<!-- -->
+<ul>
+<li>프로젝트의 성패를 좌우하는 사람과 최대한 가까운 사람을 참여 시켜야 한다.</li>
+</ul>
+</li>
+<li>짧은 개발 주기</li>
+<li>애자일 코치 - 함께 자라기를 잘하는 사람<!-- -->
+<ul>
+<li>신천법을 더 잘 도입할 수 있게 도와준다. 애자일 코치는 누구나 될 수 있다. 오로지 자신의 선택이다. 이 사람이 어떻게 행동하고 의사소통 하느냐에 따라 팀의 행동과 의사소통이 바뀔 수 있다.</li>
+<li>탁월한 소프트웨어 엔지니어의 예를 들어보자. 주어진 업무외에도 관심을 가지며, 프로젝트 전반에 대한 큰 그림을 가지려고 하고, 경영진에게 적극적인 태도로 다가가고, 다른 엔지니어들을 도와준다.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-왜-내-조직에는-새-방법론이-먹히지-않을까">👤 왜 내 조직에는 새 방법론이 먹히지 않을까?<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%99%9C-%EB%82%B4-%EC%A1%B0%EC%A7%81%EC%97%90%EB%8A%94-%EC%83%88-%EB%B0%A9%EB%B2%95%EB%A1%A0%EC%9D%B4-%EB%A8%B9%ED%9E%88%EC%A7%80-%EC%95%8A%EC%9D%84%EA%B9%8C" class="hash-link" aria-label="👤 왜 내 조직에는 새 방법론이 먹히지 않을까?에 대한 직접 링크" title="👤 왜 내 조직에는 새 방법론이 먹히지 않을까?에 대한 직��접 링크">​</a></h3>
+<p>'치료자 효과' 라는 것은 치료자가 누구냐에 따라 상담 효과가 좌우되는 것을 말한다. 어떤 방법론을 사용하던 가장 중요한 것은 누가 참여하는 가가 압도적으로 중요한 문제가 된다. 별 볼 일 없어 보이는 방법론일지라도 그걸 처방하는 팀장에 따라 전혀 다른 효과가 있다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-애자일의-성공률은-높지-않다">🫂 애자일의 성공률은 높지 않다.<a href="https://ellyheetov.github.io/paper/books/Grow_Together#-%EC%95%A0%EC%9E%90%EC%9D%BC%EC%9D%98-%EC%84%B1%EA%B3%B5%EB%A5%A0%EC%9D%80-%EB%86%92%EC%A7%80-%EC%95%8A%EB%8B%A4" class="hash-link" aria-label="🫂 애자일의 성공률은 높지 않다.에 대한 직접 링크" title="🫂 애자일의 성공률은 높지 않다.에 대한 직접 링크">​</a></h3>
+<p>왜 그럴까? 애자일 반애자일적으로 적용하고 있기 때문이다. 모든 종류의 방법론은 태생적으로 불확실성이 높다. 그럴 때 현명한 전략은 정해진 수순을 따르는 것이 아니라 곁에 있는 사람들과 함께 주변을 탐색하고 조금 나아가고 확인하고를 반복하면서 우리의 현 맥락에 맞는 좋은 전략들을 스스로 만들어 나가는 것이다.</p>]]></content>
+        <author>
+            <name>김창준</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[미움받을 용기 2]]></title>
+        <id>https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2</id>
+        <link href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2"/>
+        <updated>2024-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[사랑과 진정한 자립에 대한 아들러의 가르침]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-첫-번재-이야기---나쁜-그-사람-불쌍한-나라는-핑계">🧐 첫 번재 이야기 - 나쁜 그 사람, 불쌍한 나라는 핑계<a href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2#-%EC%B2%AB-%EB%B2%88%EC%9E%AC-%EC%9D%B4%EC%95%BC%EA%B8%B0---%EB%82%98%EC%81%9C-%EA%B7%B8-%EC%82%AC%EB%9E%8C-%EB%B6%88%EC%8C%8D%ED%95%9C-%EB%82%98%EB%9D%BC%EB%8A%94-%ED%95%91%EA%B3%84" class="hash-link" aria-label="🧐 첫 번재 이야기 - 나쁜 그 사람, 불쌍한 나라는 핑계에 대한 직접 링크" title="🧐 첫 번재 이야기 - 나쁜 그 사람, 불쌍한 나라는 핑계에 대한 직접 링크">​</a></h2>
+<ul>
+<li>인생을 사는 태도, 자신의 무지를 아는 것.</li>
+<li>교육의 궁긍적인 목표는 자립이다. 인간은 모두 자유를 추구하고, 무기력하고 부자연스러운 상태에서 '자립'하기를 원한다. 그 자립을 촉진하는 것이 교육이다.</li>
+<li>'자립'을 지원하는 첫 단계는 '존경'이다. 존경이란 인간의 모습을 있는 그대로 보고, 그 사람이 유일무이한 존재임을 아는 능력이다. 또한, 존경이란 그 사람이 그 사람답게 성장하고 발전 할 수 있게 배려하는 것이다. 자신의 가치관을 밀어붙이지 않고 그 사람이 '그사람 인 것'에 가치를 두는 것. 나아가서는 그 성장과 발전을 지원하는 것. 그것이 바로 존경이다. 먼저 존경하는 태도를 보인다면 타인이 자립할 용기를 주는 행동이고, 자립할 용기를 내느냐 마느냐는 상대의 과제이다.</li>
+<li>'존경'을 위한 첫 걸음은 '타인의 관심사'에 관심을 기울이는 것이다. 타인의 눈으로 보고, 타인의 귀로 듣고, 타인의 마음으로 느끼는 것.</li>
+<li>우리는 과거의 사건에 의해 결정되는 것이 아니라, 그 사건에 '어떤 의미를 부여하는가'에 따라 자신의 삶을 결정한다.(목적론) 자신의 인생을 결정하는 것은 '지금, 여기'를 사는 나 이다. 인간은 언제나 자아를 결정할 수 있는 존재이다.</li>
+<li>나의 '지금'이 과거를 결정한다.</li>
+<li>삼각주, 한쪽에는 '나쁜 그 사람', 다른 한 쪽에는 '불쌍한 나', 나머지 한 쪽에는 '앞으로 어떻게 할 것인가'라고 적혀있다. 나는 세번 째 면에 집중 해야한다.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-두-번째-이야기---왜-상과-벌을-부정하는-가">⁉️ 두 번째 이야기 - 왜 상과 벌을 부정하는 가<a href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2#%EF%B8%8F-%EB%91%90-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0---%EC%99%9C-%EC%83%81%EA%B3%BC-%EB%B2%8C%EC%9D%84-%EB%B6%80%EC%A0%95%ED%95%98%EB%8A%94-%EA%B0%80" class="hash-link" aria-label="⁉️ 두 번째 이야기 - 왜 상과 벌을 부정하는 가에 대한 직접 링크" title="⁉️ 두 번째 이�야기 - 왜 상과 벌을 부정하는 가에 대한 직접 링크">​</a></h2>
+<ul>
+<li>교실은 작은 민주주의 국가다. 교실의 주권자는 학생들이다. 아이들이 몰라서 문제행동을 하기도 하지만, 알면서도 문제행동을 하기도 한다. 먼저 문제행동의 목적을 파악하라.</li>
+<li>문제행동의 5단계 : 모두 '나를 더 존중해 달라'고 사랑을 갈구하는 마음의 표현<!-- -->
+<ul>
+<li>1단계 - 칭찬요구 / 착한 행동을 했을 때에만 주목하는 것이 아니라 평소 '관심사'에 주목하고 공감하기</li>
+<li>2단계 - 주목 끌기(칭찬 받지 않아도 되니까 어쨌뜬 주목을 끌자) / 지금이대로도 충분히 가치가 있다고 존경을 표현하기</li>
+<li>3단계 - 권력투쟁(불복종을 통해 자신의 힘을 증명하려고 한다) / 물러나기</li>
+<li>4단계 - 복수(이렇게 된 것은 당신 탓이다)</li>
+<li>5단계 - 무능의 증명(더 이상 나에게 기대하지마, 머지않아 '모자란 나'가 진정한 나라고 믿게 된다)</li>
+</ul>
+</li>
+<li>모든 행위는 '소속감', 즉 '공동체 안에서 특별한 위치를 확보하는 것'이라는 목적에서 비롯된다. 다툰 아이들의 '목적'에 주목하고, 아이들과 함께 '앞으로 어떻게 할 것인가'를 생각하는 것이 교육자의 역할이다.</li>
+<li>화내는 것과 야단 치는 것은 같다. 야단치는 것은 서로의 '존경'을 훼손하는 행위이다.</li>
+<li>폭력은 값 싼 커뮤니케이션이다. 폭력에 의존하면 시간과 노력없이도 자신의 요구를 밀어붙일 수 있다. 더 직접적인 표현으로는 상태를 굴복 시킬 수 있다. 그러나, 생각해야할 것은 '앞으로 어떻게 할 것인가'이다.</li>
+<li>'바꿀 수 없는 것'에 집착하지 말고, 눈 앞에 있는 '바꿀 수 있는 것'을 직시하라.</li>
+<li>그러나 어른들은 아이들을 '미성년 상태'에 잡아두려고 한다. 만약 학생이 자립해서 교육자와 대등한 입장이 된다면 교육자의 권위는 무너진다. 즉, 수직관계가 무너지는 것을 두려워 한다.</li>
+<li>교육자 더 나아가 조직의 운영을 맡고 있는 리더는 늘 '자립'을 목표로 내세워야 한다. 교육자는 아이들의 '자립'이라는 목표에 공헌했다는 공헌감을 갖는다. 그 공헌감에서 행복을 찾아야 한다.</li>
+<li>바람직한 교육자의 자세 - 본인의 인생은, 매일의 행동은 전부 스스로 결정하는 것이라고 가르쳐줄 것. 그리고 결정하는 데 필요한 자료(예를 들면 지식과 경험)가 있으면 제공해 줄 것. 아이들의 결정을 존중하고, 그 결정을 지지해주고 도와주라. 그리고 언제든 도와줄 준비가 되어 있다고 알려주되, 너무 가깝지 않은, 도움을 줄 수 있는 거리에서 지켜보면 되는 것.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-세-번째-이야기---경쟁원리가-아닌-협력원리에-기초하라">🤝🏻 세 번째 이야기 - 경쟁원리가 아닌 협력원리에 기초하라<a href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2#-%EC%84%B8-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0---%EA%B2%BD%EC%9F%81%EC%9B%90%EB%A6%AC%EA%B0%80-%EC%95%84%EB%8B%8C-%ED%98%91%EB%A0%A5%EC%9B%90%EB%A6%AC%EC%97%90-%EA%B8%B0%EC%B4%88%ED%95%98%EB%9D%BC" class="hash-link" aria-label="🤝🏻 세 번째 이야기 - 경쟁원리가 아닌 협력원리에 기초하라에 대한 직접 링크" title="🤝🏻 세 번째 이야기 - 경쟁원리가 아닌 협력원리에 기초하라에 대한 직접 링크">​</a></h2>
+<ul>
+<li>칭찬하는 행위는 공동체 안에서 경쟁원리를 낳고, 아이들에게 '타인은 적이다'라는 생활양식을 심어주게 된다.</li>
+<li>모든 인간은 '불완전한 존재'로 시작해서 누구나 열등감을 경험한다. 인간은 약하기 떄문에 공동체를 만들고 협력관계를 맺으며 살아간다.</li>
+<li>인간이 가진 가장 기본적 욕구는 '소속감'이다(아들러). 그렇다면 어떻게 해야 소속감을 가질 수 있을까? 타인으로부터 인정받기를 원하지 마고, 자신의 의사로 스스로를 인정해야 한다. '자립'이란 스스로 자신의 가치를 결정하는 것이다.</li>
+<li>평범해질 용기가 필요하다. 특별한 존재가 아니어도, 특별히 뛰어나지 않아도 내가 있을 곳은 거기에 있다.</li>
+<li>청년은 타인을 구함으로써 자신을 구하려고 한다. 스스로를 일종의 구원자로 포장해서 자신의 가치를 실감하려 한다.</li>
+<li>학생들을 '일'로서 대하지 말고 '교우'로서 관계를 맺어라.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-네-번째-이야기---주라-그러면-얻을-것이다">🎁 네 번째 이야기 - 주라, 그러면 얻을 것이다<a href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2#-%EB%84%A4-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0---%EC%A3%BC%EB%9D%BC-%EA%B7%B8%EB%9F%AC%EB%A9%B4-%EC%96%BB%EC%9D%84-%EA%B2%83%EC%9D%B4%EB%8B%A4" class="hash-link" aria-label="🎁 네 번째 이야기 - 주라, 그러면 얻을 것이다에 대한 직접 링크" title="🎁 네 번째 이야기 - 주라, 그러면 얻을 것이다에 대한 직접 링크">​</a></h2>
+<ul>
+<li>모든 고민은 인간관계에서 비롯된다. 마찬가지로 '모든 기쁨도 인관관계에서 비롯된다'</li>
+<li>신용과 신뢰의 차이<!-- -->
+<ul>
+<li>'신용'이란 상대가 가진 조건을 믿는 것</li>
+<li>'신뢰'란 아무런 조건 없이 다른 사람을 믿는 것</li>
+</ul>
+</li>
+<li>일의 관계는 '신용'의 관계이고, 교우의 관계는 '신뢰'의 관계이다.</li>
+<li>살기 위해서는 분업이 필요하고, 분업하기 위해서는 상호 '신용'이 필요하다. 거기에 선택의 여지는 없다. 우리는 혼자서는 살 수 없고, 그렇기 때문에 신용하지 않는다는 선택지는 있을 수 없다. 관계를 맺어야만 한다.</li>
+<li>인간의 가치는 '어떤 일에 종사하느냐'로 정해지는 것이 아니라, 그 일에 '어떤 태도로 임하느냐'로 정해진다. 만약 어떤 일이 가치가 없다고 한다면 결국 도태된다. 도태되지 않고 살아남았다면 그 일에는 가치가 있다는 뜻이다.</li>
+<li>타인을 '신뢰' 할 수 있느냐 없느냐는, 타인을 존경할 수 있느냐 없느냐와 상관있다.</li>
+<li>교육의 입구는 존경이고 -&gt; 존경이란 신뢰다 -&gt; 나아가 신뢰를 바탕으로 한 관계는 교우관계이다.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-다섯-번째-이야기---사랑하는-인생을-선택하라">❤️ 다섯 번째 이야기 - 사랑하는 인생을 선택하라<a href="https://ellyheetov.github.io/paper/books/Courage_ToBe_Disliked2#%EF%B8%8F-%EB%8B%A4%EC%84%AF-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0---%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94-%EC%9D%B8%EC%83%9D%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%98%EB%9D%BC" class="hash-link" aria-label="❤️ 다섯 번째 이야기 - 사랑하는 인생을 선택하라에 대한 직접 링크" title="❤️ 다섯 번째 이야기 - 사랑하는 인생을 선택하라에 대한 직접 링크">​</a></h2>]]></content>
+        <author>
+            <name>기시미 이치로, 고가 후미타케 저/전경아 역</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[말센스]]></title>
+        <id>https://ellyheetov.github.io/paper/books/We_Need_to_Talk</id>
+        <link href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk"/>
+        <updated>2024-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[상대가 누구이든, 어떤 대화 상황이든 반드시 지켜야 할 대화의 원칙들을 제시한다.]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-1-주인공이-되고-싶은-욕구를-참아낸다">👂🏻 1. 주인공이 되고 싶은 욕구를 참아낸다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-1-%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%9D%B4-%EB%90%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EC%9A%95%EA%B5%AC%EB%A5%BC-%EC%B0%B8%EC%95%84%EB%82%B8%EB%8B%A4" class="hash-link" aria-label="👂🏻 1. 주인공이 되고 싶은 욕구를 참아낸다.에 대한 직접 링크" title="👂🏻 1. 주인공이 되고 싶은 욕구를 참아낸다.에 대한 직접 링크">​</a></h2>
+<p>우리는 대화 중 나의 경험을 나누며 공감하려 하지만, 오히려 상대를 제대로 이해하지 못하게 되는 경우가 많다. 뇌는 비슷한 경험을 떠올려 공감을 유도하지만, 결국 자기 중심적인 사고로 이루어지기 쉽다. 대화란 꼭 말로만 이루어지지 않으며, 눈빛, 표정, 몸짓, 심지어 침묵 속에서도 공감을 전달할 수 있다.</p>
+<p>👩🏻‍🦰: 상대와 대화를 하면서 내가 하고 있는 것이 공감인지, 나의 경험을 훑어보는 것인지 생각해 볼 필요가 있다. 내가 직업이 있는 상태에서 친구의 해고 소식을 들었을 때와, 같이 해고 당했을 때 내가 해야하는 공감은 다르다. 전자는 들어주는 것이 공감이고, 후자는 억울함과 고민을 나누는 것이 공감이라고 생각한다. 공감하겠다는 이유로 상대의 이야기를 내 초점으로 돌리지 말자.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-2-선생님이-되려는-욕심을-부리지-않는다">👩🏻‍🏫 2. 선생님이 되려는 욕심을 부리지 않는다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-2-%EC%84%A0%EC%83%9D%EB%8B%98%EC%9D%B4-%EB%90%98%EB%A0%A4%EB%8A%94-%EC%9A%95%EC%8B%AC%EC%9D%84-%EB%B6%80%EB%A6%AC%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4" class="hash-link" aria-label="👩🏻‍🏫 2. 선생님이 되려는 욕심을 부리지 않는다.에 대한 직접 링크" title="👩🏻‍🏫 2. 선생님이 되려는 욕심을 부리지 않는다.에 대한 직접 링크">​</a></h2>
+<p>사람들이 길게 설명하려는 이유는 상대를 통제하거나 자신이 인정받고 싶기 때문이다. 우리는 무의식적으로 타인의 세계관을 미성숙하게 여기고, 편견을 가지고 상대의 생각을 교정하려 한다. 그러나 대화의 목적은 상대를 바꾸는 것이 아니라 마음을 여는 것이다. "혹시 상대의 의견이 올은가?" 하는 열린 질문을 가지고 접근하며, 나의 견해는 잠시 내려놓고 솔직하고 정중하게 대화를 나누는 것이 중요하다.</p>
+<p>나와 다른 신념을 지닌 누군가와 대화를 나눌 때 다음 두 가지 질문을 기억하자.</p>
+<ul>
+<li>"이 대화로 부터 무엇을 얻어내길 바라는가?"</li>
+<li>"대화가 끝날 무렵 어떤 기분을 느끼기 바라는가?"
+대화를 통해 상대가 얻게될 혜택을 결정할 수는 없지만, 내 스스로가 얻게될 혜택을 결정할 수 있다.</li>
+</ul>
+<p>👩🏻‍🦰: 어떤 친구에게는 조언을 구하고 또 다른 어떤 친구에게는 항상 조언을 한다면 무의식적으로 내가 '저 친구보다 나아' 라는 생각을 가지고 있는게 아닐까?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-질문을-통해-관심과-사랑을-표현한다">🙋🏻 3. 질문을 통해 관심과 사랑을 표현한다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-3-%EC%A7%88%EB%AC%B8%EC%9D%84-%ED%86%B5%ED%95%B4-%EA%B4%80%EC%8B%AC%EA%B3%BC-%EC%82%AC%EB%9E%91%EC%9D%84-%ED%91%9C%ED%98%84%ED%95%9C%EB%8B%A4" class="hash-link" aria-label="🙋🏻 3. 질문을 통해 관심과 사랑을 표현한다.에 대한 직접 링크" title="🙋🏻 3. 질문을 통해 관심과 사랑을 표현한다.에 대한 직접 링크">​</a></h2>
+<p>개방형 질문들은 상대에게 그 자신만의 언어로 무슨 일이 일어났는지 묘사할 수 있도록 공간을 마련해준다. 폐쇄형 질문은 구체적이고, 간당명료하며, 빠른 답변을 이끌어 낸다. 폐쇄형 질문은 질문자가 대화에 대한 통제권을 계속해서 보유한다는 측면이 있다. 질문에는 대화를 이끌어가는 실로 강력한 힘이 담겨 있다. 하지만, 잘못된 질문으로 상대와의 관계를 망칠수도 있다. 질문을 던지는 것에도 기술이 필요하다. 질문의 질을 향상시키려면 질문을 많이 던져 봐야 한다. <strong>질문은 상대에 대한 호기심의 표출이고, 내가 상대를 사랑하고 있다는 가장 큰 증거이다.</strong></p>
+<p>👩🏻‍🦰: 좋은 질문 몇개 만으로도 그 대화가 유익했다라는 느낌이 들기도 한다. 반면, 질문으로 방어적인 감정을 불러일으키기도 한다. 이 둘의 차이는 뭘까? 질문은 단순한 대화 수단이 아니라 상대에 대한 마음가짐을 드러내며, 질문의 담긴 태도와 품격을 통해 상대를 존중하는 마음이 전해지기도 한다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-4-대충-아는-것을-잘-아는-척하지-않는다">🤥 4. 대충 아는 것을 잘 아는 척하지 않는다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-4-%EB%8C%80%EC%B6%A9-%EC%95%84%EB%8A%94-%EA%B2%83%EC%9D%84-%EC%9E%98-%EC%95%84%EB%8A%94-%EC%B2%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4" class="hash-link" aria-label="🤥 4. 대충 아는 것을 잘 아는 척하지 않는다.에 대한 직접 링크" title="🤥 4. 대충 아는 것을 잘 아는 척하지 않는다.에 대한 직접 링크">​</a></h2>
+<p>진실을 말하는 것은 신뢰를 쌓고 정직한 인상을 준다. 또한, 자신의 오류 가능성을 인정함으로써 겸손해 질 수 있다. 잘 모르는 주제에 대해 아는 척하지 마라. 질문에 대답하지 못하면 상대는 거짓말로 느낄 수 있다. 우리는 사람들이 똑똑하다고 생각해주길 바라거나, 약점을 드러내기 꺼려서 아는 척을 하지만, 오히려 신뢰를 잃게 만든다. "잘 모릅니다" 라는 말을 통해 자신의 한계를 인정하는 것이 유대감을 강화시켜 줄 것이고, 성장과 배움의 기회를 열어준다. 대화는 관계의 기반이며, 관계는 신뢰를 토대로 한다. 당신은 '자기 지식의 한계에 대해 더 솔직해지면 질수록, 사람들이 당신의 의견에 그만큼 더 무게를 둔다'는 사실을 발견하게 될 것이다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-5-귀가-아닌-마음으로-듣는다">🫀 5. 귀가 아닌 마음으로 듣는다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-5-%EA%B7%80%EA%B0%80-%EC%95%84%EB%8B%8C-%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C-%EB%93%A3%EB%8A%94%EB%8B%A4" class="hash-link" aria-label="🫀 5. 귀가 아닌 마음으로 듣는다.에 대한 직접 링크" title="🫀 5. 귀가 아닌 마음으로 듣는다.에 대한 직접 링크">​</a></h2>
+<p>혼잣말을 해도 두뇌의 쾌락 중추가 활성화 된다. 즉, 우리는 자신에 대해 이야기 하는 것을 선호한다. 듣는 것(hearing)과 기 기울여 듣는것(listening)은 다르다. 듣기의 성공은 기억에 남는 내용으로 평가할 수 있는데, 내용의 절반 이상을 잊었다면 제대로 듣지 않는 것이다. 현대의 온라인 매체는 우리를 요점만 훑어보게 만들어, '트위터 두뇌(twitter brain)'을 형성하고 있다. 진정한 청취는 비언어적 표현까지 이해하고, 내용에 반응하며 요약하는 능동적인 과정이다.</p>
+<p>👩🏻‍🦰: 대화 할 때 나는 듣고 있는가? 상대의 이야기를 들을 때 80%는 그냥 흘려 듣는 것 같다. 물론 일부로 듣지 않는것은 아니다. 문장이 길어지고, 대화가 길어지면 앞에 내용을 잊어버린다. 귀 기울여 듣는 행위가 상대를 깊이 존중하는 행위이다. 트위터 두뇌에서 벗어나 전체를 읽고 요약하는 습관을 들여보자.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-6-상대가-보내는-신호에-안테나를-세운다">📡 6. 상대가 보내는 신호에 안테나를 세운다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-6-%EC%83%81%EB%8C%80%EA%B0%80-%EB%B3%B4%EB%82%B4%EB%8A%94-%EC%8B%A0%ED%98%B8%EC%97%90-%EC%95%88%ED%85%8C%EB%82%98%EB%A5%BC-%EC%84%B8%EC%9A%B4%EB%8B%A4" class="hash-link" aria-label="📡 6. 상대가 보내는 신호에 안테나를 세운다.에 대한 직접 링크" title="📡 6. 상대가 보내는 신호에 안테나를 세운다.에 대한 직접 링크">​</a></h2>
+<p>말하는 중간 중간에 상대의 반응을 파악해 가며 말해야 한다. 대화를 시작하기 전, 대화를 통해 얻고자 하는 것이 무엇인지 잠시 생각하는 시간을 가질 필요가 있다. 대화의 내용은 상호간의 관계를 통해 결정되어야 한다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-7-잡초-밭에-들어가-배회하지-않는다">🌿 7. 잡초 밭에 들어가 배회하지 않는다.<a href="https://ellyheetov.github.io/paper/books/We_Need_to_Talk#-7-%EC%9E%A1%EC%B4%88-%EB%B0%AD%EC%97%90-%EB%93%A4%EC%96%B4%EA%B0%80-%EB%B0%B0%ED%9A%8C%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4" class="hash-link" aria-label="🌿 7. 잡초 밭에 들어가 배회하지 않는다.에 대한 직접 링크" title="🌿 7. 잡초 밭에 들어가 배회하지 않는다.에 대한 직접 링크">​</a></h2>
+<p>불필요한 세부 묘사는 이야기의 흐름을 방해하고 흥미를 떨어뜨리며, 이를 '잡초밭으로 들어가기'라고 표현한다. 지나친 세부 묘사 뿐만아니라, 상대방이 한 얘기 가운데 잘못된 내용을 교정하고자 하는 충동도 마찬가지 이다. 사소한 것이라면 굳이 교정하지는 말자.</p>
+<p>물론 예외 상황은 있다. 암 투병을 하는 친구의 이야기를 들어주는 것은 사랑을 표현하는 하나의 방식이다. <strong>대화가 항상 목적 지향적일 필요는 없다.</strong> 예외 상황을 제외하고는 유익한 대화를 위해 세무 묘사와 교정은 피해야 한다.</p>
+<p>👩🏻‍🦰: 듣기 좋은 이야기에 대해 반응하는 것은 쉽지만, 듣고 싶지 않은 이야기에 반응하는 것은 어렵다. 내가 사랑하는 사람이라면 조금 기다려주고 귀 기울여 줄 필요가 있다. 반대의 상황도 마찬가지 이다. 목적의식에 부합한 이야기만 하려고 너무 스스로를 억압하지 말자.</p>
+<blockquote>
+<p>p.105 물론 두서없고 방향이 없는 대화가 필요할 때도 있다. 모든 대화가 목표를 향해 목적의식적으로 이루어질 필요는 없기 때문이다. "아들이 아무리 많은 말을 늘어놓을 지라도 앞으로도 계속해서 아들의 말을 들어줄 생각이다. 내가 그렇게 하는 이유는 내가 그의 엄마이고, 그를 지구상의 그 누구보다도 사랑하기 떄문이다." 세부 내용에 귀를 기울이는 것은 어려움에 처한 친구에게 해줄 수 있는 하나의 봉사 수단이기도 하다. 암을 진단 받은 친구는 최대한 세세하게 그가 겪은 일들을 털어 놓고 싶어 할 것이다. 이런 경우에 그 얘기를 들어주는 것은 사랑을 표현하는 하나의 방식이 될 수 있다. 그러나 이것은 예외 상황이다. 서로 공감할 수 있고 유익한 의견을 교환하려면 사소한 내용을 언급하는 일은 되도록 피하는 편이 좋다.</p>
+</blockquote>
+<blockquote>
+<p>p.108 상대의 말이나 인식을 교정해주는 것이 정말로 필요하고 절실한 상황이라면, 다른 방법을 찾아보거나 상대가 말을 다 마칠 때 까지 기다려 주자. 그리고 만일 그 교정해야할 사항이 사소한 것이라면 굳이 교정하는 일은 하지 말자. 그런 말을 하는 것이 정말로 필요한지 의식적으로 고려하지도 않은 채, 상대방의 실수를 지적하거나, 바로잡을 필요가 없는 사실을 바로잡는 경우가 너무나도 많기 때문이다.</p>
+</blockquote>]]></content>
+        <author>
+            <name>셀레스트 헤들리</name>
+        </author>
+    </entry>
+</feed>
