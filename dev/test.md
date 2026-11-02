@@ -1,7 +1,7 @@
 ---
 title: SwiftUI @State와 @Binding 정리
 description: 상태를 소유하는 뷰와 빌려 쓰는 뷰를 구분하면 데이터 흐름이 단순해진다.
-image: https://picsum.photos/seed/treasure-dev/800/500
+image: https://picsum.photos/seed/paper-dev/800/500
 date: 2026-10-30
 ---
 

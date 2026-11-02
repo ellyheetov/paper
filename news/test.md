@@ -1,7 +1,7 @@
 ---
 title: 뉴스 읽기 템플릿
 description: 기사 하나를 읽고 요약, 의미, 내 생각, 더 찾아볼 것 순서로 정리하는 틀.
-image: https://picsum.photos/seed/treasure-news/800/500
+image: https://picsum.photos/seed/paper-news/800/500
 date: 2026-11-02
 ---
 

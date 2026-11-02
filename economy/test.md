@@ -1,7 +1,7 @@
 ---
 title: 금리가 오르면 채권 가격은 왜 내려갈까
 description: 이미 정해진 이자를 주는 채권의 가치는 시장 금리와 반대로 움직인다.
-image: https://picsum.photos/seed/treasure-economy/800/500
+image: https://picsum.photos/seed/paper-economy/800/500
 date: 2026-10-28
 ---
 
