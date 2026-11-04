@@ -1,0 +1,30 @@
+# main에 push하면 사이트를 빌드해서 gh-pages 브랜치에 배포 (로컬의 npm run deploy와 같은 일)
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write # gh-pages 브랜치에 push
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true # 연달아 push하면 마지막 것만 배포 (예전 빌드가 늦게 끝나 덮어쓰는 것 방지)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26 # 로컬과 같은 버전
+          cache: npm
+      - run: npm ci
+      - run: npm run deploy
+        env:
+          GIT_USER: x-access-token
+          GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER_NAME: github-actions[bot]
+          GIT_USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
