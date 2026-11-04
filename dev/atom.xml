@@ -2,34 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ellyheetov.github.io/paper/dev</id>
     <title>Hi, There 👋🏻 Blog</title>
-    <updated>2026-11-03T00:00:00.000Z</updated>
+    <updated>2026-11-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ellyheetov.github.io/paper/dev"/>
     <subtitle>Hi, There 👋🏻 Blog</subtitle>
     <icon>https://ellyheetov.github.io/paper/img/ibooks.ico</icon>
     <entry>
-        <title type="html"><![CDATA[3. AI 작업 프로세스]]></title>
-        <id>https://ellyheetov.github.io/paper/dev/ai_process</id>
-        <link href="https://ellyheetov.github.io/paper/dev/ai_process"/>
-        <updated>2026-11-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI 가 작업을 연결하고 진행하는 방법]]></summary>
-        <content type="html"><![CDATA[<h1>Agent Orchestration</h1>
-<h1>Loop Engineering</h1>
-<h1>Graph Engineering</h1>]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1. AI 기본 구성 요소]]></title>
         <id>https://ellyheetov.github.io/paper/dev/ai_element</id>
         <link href="https://ellyheetov.github.io/paper/dev/ai_element"/>
-        <updated>2026-11-02T00:00:00.000Z</updated>
+        <updated>2026-11-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[AI 시스템을 이용하기 위한 기본 개념 Model, Agent, Harness 가 무엇인지 알아보아요.]]></summary>
         <content type="html"><![CDATA[<p>AI에게 일을 시키는 방법, AI가 일하는 환경을 만드는 방법, AI 가 작업을 연결하는 방법 등 서로다른 영역을 설명하고 있어요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-ai-모델ai-model">1. AI 모델(AI Model)<a href="https://ellyheetov.github.io/paper/dev/ai_element#1-ai-%EB%AA%A8%EB%8D%B8ai-model" class="hash-link" aria-label="1. AI 모델(AI Model)에 대한 직접 링크" title="1. AI 모델(AI Model)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>생각하고 판단하는 두뇌</p>
 </blockquote>
 <p>대량의 데이터를 학습해서 패턴을 익히고, 새로운 입력을 받았을 때 결과를 만들어 내는 시스템이에요.
 대표적으로 GPT, Claude, Gemini 모델이 있어요.</p>
-<h1>2. AI 에이전트(Agent)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-ai-에이전트agent">2. AI 에이전트(Agent)<a href="https://ellyheetov.github.io/paper/dev/ai_element#2-ai-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8agent" class="hash-link" aria-label="2. AI 에이전트(Agent)에 대한 직접 링크" title="2. AI 에이전트(Agent)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>목표를 받고 스스로 작업을 진행하는 일꾼</p>
 </blockquote>
@@ -39,7 +30,7 @@
 "이 코드에서 문제가 있는 부분을 찾아줘." -&gt; 코드를 분석하고 문제점을 알려줍니다. 그럼 그 문제를 해결하라고 또 요청해야 겠죠.</p>
 <p>에이전트에게 요청
 "이 프로젝트에서 메모리 누수 문제를 찾아서 해결해줘" -&gt; 프로젝트를 탐색하고, 분석해서, 코드를 수정하고, 결과까지 확인할 수 있습니다. 에이전트에 어느범위까지 실행할 수 있는지 권한을 주느냐에 따라 결과가 달라져요.</p>
-<h1>3. 프롬프트 엔지니어링(Prompt Engineering)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-프롬프트-엔지니어링prompt-engineering">3. 프롬프트 엔지니어링(Prompt Engineering)<a href="https://ellyheetov.github.io/paper/dev/ai_element#3-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81prompt-engineering" class="hash-link" aria-label="3. 프롬프트 엔지니어링(Prompt Engineering)에 대한 직접 링크" title="3. 프롬프트 엔지니어링(Prompt Engineering)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>AI 에게 원하는 결과를 얻기위해 질문이나 지시문(Prompt)을 효과적으로 작성하는 기술</p>
 </blockquote>
@@ -56,13 +47,13 @@
 </ul>
 <p>두 요청 모두 같은 작업을 요구하지만, 두 번째 요청은 목표와 조건이 더 명확해요.</p>
 <p>이처럼 프롬프트를 어떻게 작성해야 AI가 원하는 방향으로 작업할지 고민하는 것이 프롬프트 엔지니어링이에요.</p>
-<h1>4. 컨텍스트 엔지니어링(Context Engineering)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-컨텍스트-엔지니어링context-engineering">4. 컨텍스트 엔지니어링(Context Engineering)<a href="https://ellyheetov.github.io/paper/dev/ai_element#4-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81context-engineering" class="hash-link" aria-label="4. 컨텍스트 엔지니어링(Context Engineering)에 대한 직접 링크" title="4. 컨텍스트 엔지니어링(Context Engineering)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>AI 에게 필요한 정보를 잘 구성해서 제공하는 기술</p>
 </blockquote>
 <p>AI가 작업을 제대로 수행할 수 있도록 필요한 정보(Context)를 수집하고 구성해서 제공하는 기술이에요.</p>
 <p>AI 에게 리팩토링을 요청하더라도 AI가 프로젝트 구조를 모르면 적절한 코드를 작성하기 어려울 수 있어요. 이때 개발환경, 아키텍처, 프로젝트 규칙, 참고 자료를 같이 제공하는 거예요. 이런 정보를 AI가 참고할 수 있도록 구성하면, 프로젝트에 상황에 맞는 결과물을 만들 가능성이 높아져요.</p>
-<h1>5. 하네스(Harness)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-하네스harness">5. 하네스(Harness)<a href="https://ellyheetov.github.io/paper/dev/ai_element#5-%ED%95%98%EB%84%A4%EC%8A%A4harness" class="hash-link" aria-label="5. 하네스(Harness)에 대한 직접 링크" title="5. 하네스(Harness)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>AI가 제대로 일할 수 있도록 만들어 주는 실행 환경</p>
 </blockquote>
@@ -74,7 +65,8 @@
         <link href="https://ellyheetov.github.io/paper/dev/ai_working"/>
         <updated>2026-11-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[AI 가 실제로 작업하는 방법 Skill, Memory, RAG, MCP]]></summary>
-        <content type="html"><![CDATA[<blockquote>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-스킬skill">1. 스킬(Skill)<a href="https://ellyheetov.github.io/paper/dev/ai_working#1-%EC%8A%A4%ED%82%ACskill" class="hash-link" aria-label="1. 스킬(Skill)에 대한 직접 링크" title="1. 스킬(Skill)에 대한 직접 링크">​</a></h2>
+<blockquote>
 <p>특정 작업을 수행하는 방법을 미리 정의한 메뉴얼</p>
 </blockquote>
 <p>매번 AI에게 작업 방법을 설명하는 대신, 해당 작업의 규칙과 절차를 스킬로 만들어 놓는 거예요.</p>
@@ -88,7 +80,7 @@
 <li>개선할 부분을 이유와 함께 제안한다.</li>
 </ol>
 <p>이후 AI에게 코드 리뷰를 요청하면 스킬에 정의된 방식으로 작업해요.</p>
-<h1>2. 메모리(Memory)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-메모리memory">2. 메모리(Memory)<a href="https://ellyheetov.github.io/paper/dev/ai_working#2-%EB%A9%94%EB%AA%A8%EB%A6%ACmemory" class="hash-link" aria-label="2. 메모리(Memory)에 대한 직접 링크" title="2. 메모리(Memory)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>이전 정보를 저장하고 활용하는 기능</p>
 </blockquote>
@@ -99,15 +91,107 @@
 <li>Context: 현재 작업을 수행하기 위해 AI에게 제공 되는 정보</li>
 </ul>
 <p>Memory에 저장된 정보가 다음 작업의 Context 로 활용 될 수 있는 거예요.</p>
-<h1>3. RAG(Retrieval-Augmented Generation)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-ragretrieval-augmented-generation">3. RAG(Retrieval-Augmented Generation)<a href="https://ellyheetov.github.io/paper/dev/ai_working#3-ragretrieval-augmented-generation" class="hash-link" aria-label="3. RAG(Retrieval-Augmented Generation)에 대한 직접 링크" title="3. RAG(Retrieval-Augmented Generation)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>외부 자료를 검색해서 AI답변에 활용하는 기술</p>
 </blockquote>
 <p>외부에서 관련 정보를 검색해 AI에게 제공하고, 그 정보를 바탕으로 답변을 생성하는 방식이에요. RAG는 AI가 문서를 미리 전부 학습하는 것이 아니라, 질문이 들어왔을 때 필요한 내용을 찾아서 참고 해요.</p>
-<h1>4. MCP(Model Context Protocol)</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-mcpmodel-context-protocol">4. MCP(Model Context Protocol)<a href="https://ellyheetov.github.io/paper/dev/ai_working#4-mcpmodel-context-protocol" class="hash-link" aria-label="4. MCP(Model Context Protocol)에 대한 직접 링크" title="4. MCP(Model Context Protocol)에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>AI와 외부 도구를 연결하기 위한 공통 통신 규격</p>
 </blockquote>
 <p>AI가 외부 도구나 데이터에 연결할 때 사용할 수 있는 표준화된 통신 규격이에요. 예를들어 "GitHub에서 현재 진행중인 Issue 목록을 확인해줘"라고 요청했다고 생각해 볼게요. 그런데 AI 가 GitHub에 접근 할 수 없다면 이 작업을 진행할 수 없겠죠? 이때 GitHub MCP Server가 있다면 AI가 GitHub 기능을 사용할 수 있도록 연결해 줄 수 있어요.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3. AI 작업 프로세스]]></title>
+        <id>https://ellyheetov.github.io/paper/dev/ai_process</id>
+        <link href="https://ellyheetov.github.io/paper/dev/ai_process"/>
+        <updated>2026-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI 가 작업을 연결하고 진행하는 방법]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="agentic-workflow">Agentic Workflow<a href="https://ellyheetov.github.io/paper/dev/ai_process#agentic-workflow" class="hash-link" aria-label="Agentic Workflow에 대한 직접 링크" title="Agentic Workflow에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>AI가 여러 단계를 거쳐 작업을 수행하는 흐름</p>
+</blockquote>
+<p>하나의 목표나 요구사항을 전달하면, AI가 목표 달성에 필요한 작업들을 여러 단계로 나누고, 각 작업의 순서와 관계를 구성하여 최종 목표를 달성하는 작업 흐름이에요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="agent-orchestration">Agent Orchestration<a href="https://ellyheetov.github.io/paper/dev/ai_process#agent-orchestration" class="hash-link" aria-label="Agent Orchestration에 대한 직접 링크" title="Agent Orchestration에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>여러 AI 에이전트의 역할과 작업 순서를 조율하는 것</p>
+</blockquote>
+<p>여러 AI 에이전트에게 역할과 작업을 분배하고, 각 에이전트의 실행 순서와 결과물을 조율하여 하나의 목표를 달성하도록 관리하는 것이에요.</p>
+<table><thead><tr><th style="text-align:left">개념</th><th style="text-align:left">의미</th></tr></thead><tbody><tr><td style="text-align:left">Agent</td><td style="text-align:left">실제 작업을 수행하는 주체</td></tr><tr><td style="text-align:left">Orchestrator</td><td style="text-align:left">Agent들의 역할과 작업을 조율하는 주체</td></tr><tr><td style="text-align:left">Orchestration</td><td style="text-align:left">전체 조율 과정</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="loop-engineering">Loop Engineering<a href="https://ellyheetov.github.io/paper/dev/ai_process#loop-engineering" class="hash-link" aria-label="Loop Engineering에 대한 직접 링크" title="Loop Engineering에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>결과를 확인하고 수정하는 반복 구조를 설계하는 것</p>
+</blockquote>
+<p>AI 가 작업한 결과를 확인하고, 부족하거나 잘못된 부분을 수정한 뒤 다시 실행하는 반복 구조를 설계하는 것이에요. 다시 말해 AI 에게 한번에 완벽한 결과를 기대하는 게 아니라, 결과를 확인하고 계속 개선하도록 만드는 거예요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="graph-engineering">Graph Engineering<a href="https://ellyheetov.github.io/paper/dev/ai_process#graph-engineering" class="hash-link" aria-label="Graph Engineering에 대한 직접 링크" title="Graph Engineering에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>작업의 순서, 조건 분기, 반복 관계를 그래프로 설계하는 것</p>
+</blockquote>
+<p>작업을 일렬로 나열하는 대신, 각 작업을 <strong>노드(Node)</strong> 로, 작업 사이의 연결을 <strong>엣지(Edge)</strong> 로 표현해 전체 흐름을 그래프로 설계하는 것이에요.</p>
+<table><thead><tr><th style="text-align:left">요소</th><th style="text-align:left">의미</th><th style="text-align:left">예시</th></tr></thead><tbody><tr><td style="text-align:left">노드(Node)</td><td style="text-align:left">하나의 작업, 또는 그 작업을 맡은 Agent</td><td style="text-align:left">구현, 테스트</td></tr><tr><td style="text-align:left">엣지(Edge)</td><td style="text-align:left">다음 작업으로 넘어가는 연결</td><td style="text-align:left">구현 → 테스트</td></tr><tr><td style="text-align:left">조건 분기</td><td style="text-align:left">결과에 따라 다른 노드로 이동</td><td style="text-align:left">통과 → 완료, 실패 → 수정</td></tr><tr><td style="text-align:left">사이클(Cycle)</td><td style="text-align:left">이전 노드로 되돌아가는 연결</td><td style="text-align:left">수정 → 다시 테스트</td></tr></tbody></table>
+<p>예를 들어 로그인 기능 구현을 그래프로 나타내면 이렇게 돼요.</p>
+<!-- -->
+<ul>
+<li><strong>의존성</strong>: 설계가 끝나면 API와 화면을 동시에 구현할 수 있고, 테스트는 두 작업이 모두 끝나야 시작해요.</li>
+<li><strong>조건 분기</strong>: 테스트 결과에 따라 완료로 가거나 수정으로 가요.</li>
+<li><strong>반복</strong>: 수정 후 다시 테스트로 돌아가요. Loop Engineering에서 설계한 반복이 그래프에서는 이렇게 되돌아가는 화살표로 표현돼요.</li>
+</ul>
+<p>LangGraph 같은 프레임워크가 이런 방식으로 노드와 엣지를 정의해서 Agent의 작업 흐름을 구성해요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4가지-개념-연결하기">4가지 개념 연결하기<a href="https://ellyheetov.github.io/paper/dev/ai_process#4%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0" class="hash-link" aria-label="4가지 개념 연결하기에 대한 직접 링크" title="4가지 개념 연결하기에 대한 직접 링크">​</a></h2>
+<table><thead><tr><th style="text-align:left">개념</th><th style="text-align:left">핵심 질문</th><th style="text-align:left">핵심 역할</th></tr></thead><tbody><tr><td style="text-align:left">Agentic Workflow</td><td style="text-align:left">어떤 작업을 진행할까?</td><td style="text-align:left">전체 작업 흐름 설계</td></tr><tr><td style="text-align:left">Agent Orchestration</td><td style="text-align:left">누가 작업할까?</td><td style="text-align:left">Agent 역할 및 실행 조율</td></tr><tr><td style="text-align:left">Loop Engineering</td><td style="text-align:left">어떻게 반복 개선할까?</td><td style="text-align:left">검증과 수정 반복 구조</td></tr><tr><td style="text-align:left">Graph Engineering</td><td style="text-align:left">작업들이 어떻게 연결될까?</td><td style="text-align:left">노드와 연결 관계 설계</td></tr></tbody></table>
+<p>하나의 AI 개발 시스템 안에서 함께 활용할 수 있는데요.
+예를 들어 로그인 기능을 구현하는 AI 시스템에서</p>
+<ul>
+<li>Workflow 로 전체 작업 단계를 정하고,</li>
+<li>Orchestration 으로 여러 Agent 에게 역할을 나누고,</li>
+<li>Loop 로 테스트와 수정을 반복하고,</li>
+<li>Graph 로 작업 간 의존성과 분기를 표현할 수 있어요.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4. AI 품질 및 안정성]]></title>
+        <id>https://ellyheetov.github.io/paper/dev/ai_eval_guardrails</id>
+        <link href="https://ellyheetov.github.io/paper/dev/ai_eval_guardrails"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI가 작업한 결과가 제대로 된 것인지, 그리고 AI가 해도 되는 일의 범위를 어떻게 관리할 것인지]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="evaluation">Evaluation<a href="https://ellyheetov.github.io/paper/dev/ai_eval_guardrails#evaluation" class="hash-link" aria-label="Evaluation에 대한 직접 링크" title="Evaluation에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>AI가 만든 결과가 기대한 수준인지 측정하는 것</p>
+</blockquote>
+<p>AI는 같은 입력에도 매번 다른 결과를 낼 수 있어서, 한 번 잘 됐다고 품질이 보장되지 않아요. 그래서 기준과 테스트 데이터를 정해두고 결과를 반복해서 측정해요.</p>
+<table><thead><tr><th style="text-align:left">방식</th><th style="text-align:left">의미</th><th style="text-align:left">예시</th></tr></thead><tbody><tr><td style="text-align:left">규칙 기반</td><td style="text-align:left">정답이나 규칙과 직접 비교</td><td style="text-align:left">테스트 통과 여부, JSON 형식 검사</td></tr><tr><td style="text-align:left">사람 평가</td><td style="text-align:left">사람이 결과를 직접 보고 판단</td><td style="text-align:left">코드 리뷰, 답변 만족도</td></tr><tr><td style="text-align:left">LLM-as-a-Judge</td><td style="text-align:left">다른 AI가 기준에 따라 채점</td><td style="text-align:left">"질문에 맞는 답인가?" 1~5점</td></tr></tbody></table>
+<p>프롬프트나 모델을 바꿨을 때 정말 나아졌는지도 같은 기준으로 비교할 수 있어요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="guardrails">Guardrails<a href="https://ellyheetov.github.io/paper/dev/ai_eval_guardrails#guardrails" class="hash-link" aria-label="Guardrails에 대한 직접 링크" title="Guardrails에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>AI가 해도 되는 일과 하면 안 되는 일의 경계를 정하는 것</p>
+</blockquote>
+<p>AI가 위험한 작업을 실행하거나 잘못된 정보를 내보내지 않도록, 입력·출력·행동에 제한을 두는 장치예요.</p>
+<table><thead><tr><th style="text-align:left">위치</th><th style="text-align:left">하는 일</th><th style="text-align:left">예시</th></tr></thead><tbody><tr><td style="text-align:left">입력</td><td style="text-align:left">들어오는 요청을 검사</td><td style="text-align:left">개인정보, 프롬프트 인젝션 차단</td></tr><tr><td style="text-align:left">출력</td><td style="text-align:left">내보내는 결과를 검사</td><td style="text-align:left">민감 정보 마스킹, 형식 검증</td></tr><tr><td style="text-align:left">행동</td><td style="text-align:left">실행할 수 있는 작업을 제한</td><td style="text-align:left">파일 삭제·배포 전 사람 승인</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="두-개념-비교하기">두 개념 비교하기<a href="https://ellyheetov.github.io/paper/dev/ai_eval_guardrails#%EB%91%90-%EA%B0%9C%EB%85%90-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0" class="hash-link" aria-label="두 개념 비교하기에 대한 직접 링크" title="두 개념 비교하기에 대한 직접 링크">​</a></h2>
+<table><thead><tr><th style="text-align:left">개념</th><th style="text-align:left">핵심 질문</th><th style="text-align:left">시점</th></tr></thead><tbody><tr><td style="text-align:left">Evaluation</td><td style="text-align:left">결과가 잘 나왔나?</td><td style="text-align:left">결과가 나온 뒤 측정</td></tr><tr><td style="text-align:left">Guardrails</td><td style="text-align:left">해도 되는 일인가?</td><td style="text-align:left">실행 전·실행 중 차단</td></tr></tbody></table>
+<p>Evaluation은 품질을 높이고, Guardrails는 사고를 막아요. Loop Engineering에서는 Evaluation 결과가 다시 수정할지 판단하는 기준이 돼요.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5. AI 활용 및 확장]]></title>
+        <id>https://ellyheetov.github.io/paper/dev/ai_extension</id>
+        <link href="https://ellyheetov.github.io/paper/dev/ai_extension"/>
+        <updated>2026-11-04T15:17:00.000Z</updated>
+        <summary type="html"><![CDATA[AI 가 개인의 지식 관리 방식과 일하는 방식 자체를 어떻게 바꿀수 있는지 알아볼게요.]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="second-brain">Second Brain<a href="https://ellyheetov.github.io/paper/dev/ai_extension#second-brain" class="hash-link" aria-label="Second Brain에 대한 직접 링크" title="Second Brain에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>머릿속 지식을 밖에 저장해두고 필요할 때 꺼내 쓰는 개인 지식 시스템</p>
+</blockquote>
+<p>사람은 모든 정보를 기억할 수 없잖아요. 그래서 기억해야 할 정보나 나중에 활용할 지식을 외부 공간에 정리하고, 필요할 때 다시 꺼내 쓸 수 있도록 만드는 거예요. 읽은 글, 메모, 아이디어를 한곳에 모아두고 다시 활용하는거죠. 이 블로그도 공부한 내용을 기록해두는 것으로 Second Brain이에요.</p>
+<p>전에는 모으고 정리하는 일을 사람이 다 했다면, 이제는 AI가 많은 부분을 맡아요. 단순히 정보를 저장하는 데 그치지 않고, AI가 저장된 지식을 검색하고 연결해서 활용할 수 있게 된거예요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ai-native">AI Native<a href="https://ellyheetov.github.io/paper/dev/ai_extension#ai-native" class="hash-link" aria-label="AI Native에 대한 직접 링크" title="AI Native에 대한 직접 링크">​</a></h2>
+<blockquote>
+<p>처음부터 AI와 함께 일한다는 전제로 일하는 방식을 설계하는 것</p>
+</blockquote>
+<p>AI를 기존 업무에 단순히 추가하는 게 아니라, 처음부터 AI를 활용하는 것을 전제로 업무와 시스템을 설계하는 접근 방식이에요.</p>
+<table><thead><tr><th style="text-align:left">구분</th><th style="text-align:left">AI-enabled</th><th style="text-align:left">AI Native</th></tr></thead><tbody><tr><td style="text-align:left">AI의 역할</td><td style="text-align:left">필요할 때 쓰는 도구</td><td style="text-align:left">함께 일하는 동료</td></tr><tr><td style="text-align:left">사람의 역할</td><td style="text-align:left">직접 작업</td><td style="text-align:left">목표 설정, 검토, 판단</td></tr><tr><td style="text-align:left">예시</td><td style="text-align:left">코드를 짠 뒤 AI에게 리뷰 요청</td><td style="text-align:left">요구사항을 주면 AI가 구현·테스트하고 사람은 검토</td></tr></tbody></table>
+<p>사람의 일이 직접 만드는 것에서, 무엇을 시킬지 정하고(Workflow) 결과를 확인하는(Evaluation) 것으로 옮겨가요.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="정리">정리<a href="https://ellyheetov.github.io/paper/dev/ai_extension#%EC%A0%95%EB%A6%AC" class="hash-link" aria-label="정리에 대한 직접 링크" title="정리에 대한 직접 링크">​</a></h2>
+<p>Second Brain은 <strong>아는 방식</strong>을, AI Native는 <strong>일하는 방식</strong>을 바꿔요. 둘 다 반복적인 일은 AI에게 맡기고, 사람은 방향을 정하고 판단하는 데 집중한다는 점에서 같아요.</p>]]></content>
     </entry>
 </feed>
