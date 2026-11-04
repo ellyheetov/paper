@@ -47,6 +47,8 @@ const config: Config = {
     'https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css',
   ],
   customFields: {sections},
+  markdown: {mermaid: true}, // 글에서 ```mermaid 코드 블록을 다이어그램으로 렌더
+  themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
     [
@@ -59,26 +61,36 @@ const config: Config = {
     ],
   ],
 
-  plugins: sections.map(
-    ({id, label, description}): PluginConfig => [
-      blogWithPosts,
-      {
-        id,
-        path: id,
-        routeBasePath: id,
-        blogTitle: label,
-        blogDescription: description,
-        blogSidebarCount: 0, // 카드 목록만, 사이드바/페이지네이션 없음
-        postsPerPage: 'ALL',
-        onUntruncatedBlogPosts: 'ignore',
-        onInlineAuthors: 'ignore', // 책 저자는 front matter에 inline으로 적음
-      },
-    ],
-  ),
+  plugins: [
+    // mermaid가 d3에서 select만 가져오면 webpack이 d3 전체를 sideEffects:false로 보고 d3-transition(selection.transition 추가)을 빼버림
+    // → 다이어그램 노드에서 마우스를 떼면 'tooltipElem.transition is not a function'. d3 진입점을 side effect 있음으로 표시해 해결
+    () => ({
+      name: 'd3-keep-transition',
+      configureWebpack: () => ({module: {rules: [{test: /[\\/]node_modules[\\/]d3[\\/]/, sideEffects: true}]}}),
+    }),
+    ...sections.map(
+      ({id, label, description}): PluginConfig => [
+        blogWithPosts,
+        {
+          id,
+          path: id,
+          routeBasePath: id,
+          blogTitle: label,
+          blogDescription: description,
+          blogSidebarCount: 0, // 카드 목록만, 사이드바/페이지네이션 없음
+          postsPerPage: 'ALL',
+          sortPosts: 'ascending', // 작성 순서대로(오래된 글 먼저). 같은 날 글이 여럿이면 date에 시각까지 적기: 2026-11-02T18:25:00
+          onUntruncatedBlogPosts: 'ignore',
+          onInlineAuthors: 'ignore', // 책 저자는 front matter에 inline으로 적음
+        },
+      ],
+    ),
+  ],
 
   themeConfig: {
     image: 'img/door.png',
     colorMode: {respectPrefersColorScheme: true},
+    mermaid: {theme: {light: 'neutral', dark: 'dark'}}, // 기본 보라색 대신 미색 노트 배경에 맞는 회색 톤
   } satisfies Preset.ThemeConfig,
 };
 
