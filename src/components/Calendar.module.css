@@ -62,8 +62,26 @@
   align-items: center;
   gap: 3px;
   padding: 2px 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
   font-size: 0.8125rem;
   font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.day:disabled {
+  cursor: default;
+}
+
+.day:not(:disabled):hover .num:not(.isToday),
+.isSelected .num:not(.isToday) {
+  background: var(--hairline);
+}
+
+.isSelected .num {
+  font-weight: 600;
 }
 
 .num {
@@ -102,7 +120,8 @@
   border-left: 1px solid var(--hairline);
 }
 
-.status ul {
+.status ul,
+.list {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
@@ -111,25 +130,35 @@
   list-style: none;
 }
 
-.status li {
+.list {
+  margin: 0.75rem 0 0;
+  padding: 0.75rem 0 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.status li,
+.list li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 0.875rem;
 }
 
-.status li i {
+.status li i,
+.list li i {
   width: 10px;
   height: 10px;
   border: 1.5px solid;
   border-radius: 50%;
 }
 
-.status li a {
+.status li a,
+.list li a {
   color: inherit;
 }
 
-.status li span {
+.status li span,
+.list li span {
   margin-left: auto;
   font-size: 0.8rem;
   color: var(--muted);
