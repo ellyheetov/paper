@@ -1,10 +1,11 @@
 ---
 title: 2. AI 작업 수행 방식
 description: AI 가 실제로 작업하는 방법 Skill, Memory, RAG, MCP
+image: https://images.unsplash.com/photo-1583521214690-73421a1829a9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D
 date: 2026-11-02
 ---
 
-# 1. 스킬(Skill)
+## 1. 스킬(Skill)
 
 > 특정 작업을 수행하는 방법을 미리 정의한 메뉴얼
 
@@ -22,7 +23,7 @@ date: 2026-11-02
 
 이후 AI에게 코드 리뷰를 요청하면 스킬에 정의된 방식으로 작업해요.
 
-# 2. 메모리(Memory)
+## 2. 메모리(Memory)
 
 > 이전 정보를 저장하고 활용하는 기능
 
@@ -34,13 +35,13 @@ Memory 와 Context 는 같은 개념이 아니에요.
 
 Memory에 저장된 정보가 다음 작업의 Context 로 활용 될 수 있는 거예요.
 
-# 3. RAG(Retrieval-Augmented Generation)
+## 3. RAG(Retrieval-Augmented Generation)
 
 > 외부 자료를 검색해서 AI답변에 활용하는 기술
 
 외부에서 관련 정보를 검색해 AI에게 제공하고, 그 정보를 바탕으로 답변을 생성하는 방식이에요. RAG는 AI가 문서를 미리 전부 학습하는 것이 아니라, 질문이 들어왔을 때 필요한 내용을 찾아서 참고 해요.
 
-# 4. MCP(Model Context Protocol)
+## 4. MCP(Model Context Protocol)
 
 > AI와 외부 도구를 연결하기 위한 공통 통신 규격
 
