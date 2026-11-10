@@ -20,6 +20,15 @@ const blogWithPosts = Object.assign(
     const plugin = await blogPlugin(...args);
     return {
       ...plugin,
+      // front matter에 date가 없으면 Docusaurus가 첫 커밋 시각(아직 커밋 전이면 파일 생성 시각)을 씀.
+      // 사이트는 날짜를 UTC로 그리므로(front matter 날짜를 UTC로 읽음) 9시간 더해 KST 기준 날짜로 맞춤. 안 하면 새벽 커밋이 전날로 보임
+      async loadContent() {
+        const content = (await plugin.loadContent!())!;
+        for (const {metadata} of content.blogPosts) {
+          if (!metadata.frontMatter.date) Object.assign(metadata, {date: new Date(metadata.date.getTime() + 9 * 60 * 60 * 1000)});
+        }
+        return content;
+      },
       async contentLoaded(params: Parameters<NonNullable<typeof plugin.contentLoaded>>[0]) {
         params.actions.setGlobalData({
           posts: params.content.blogPosts.map(({metadata: {date, title, permalink}}) => ({date, title, permalink})),
@@ -90,7 +99,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/door.png',
     colorMode: {respectPrefersColorScheme: true},
-    mermaid: {theme: {light: 'neutral', dark: 'dark'}}, // 기본 보라색 대신 미색 노트 배경에 맞는 회색 톤
+    mermaid: {theme: {light: 'neutral', dark: 'dark'}}, // 기본 보라색 대신 흰 배경에 맞는 회색 톤
   } satisfies Preset.ThemeConfig,
 };
 

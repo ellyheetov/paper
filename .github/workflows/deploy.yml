@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # 전체 히스토리: date 없는 글은 첫 커밋 시각을 날짜로 씀 (얕은 clone이면 전부 마지막 push 날짜가 됨)
       - uses: actions/setup-node@v7
         with:
           node-version: 26 # 로컬과 같은 버전
