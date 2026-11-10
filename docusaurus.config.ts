@@ -20,15 +20,6 @@ const blogWithPosts = Object.assign(
     const plugin = await blogPlugin(...args);
     return {
       ...plugin,
-      // front matter에 date가 없으면 Docusaurus가 첫 커밋 시각(아직 커밋 전이면 파일 생성 시각)을 씀.
-      // 사이트는 날짜를 UTC로 그리므로(front matter 날짜를 UTC로 읽음) 9시간 더해 KST 기준 날짜로 맞춤. 안 하면 새벽 커밋이 전날로 보임
-      async loadContent() {
-        const content = (await plugin.loadContent!())!;
-        for (const {metadata} of content.blogPosts) {
-          if (!metadata.frontMatter.date) Object.assign(metadata, {date: new Date(metadata.date.getTime() + 9 * 60 * 60 * 1000)});
-        }
-        return content;
-      },
       async contentLoaded(params: Parameters<NonNullable<typeof plugin.contentLoaded>>[0]) {
         params.actions.setGlobalData({
           posts: params.content.blogPosts.map(({metadata: {date, title, permalink}}) => ({date, title, permalink})),
@@ -88,7 +79,15 @@ const config: Config = {
           blogDescription: description,
           blogSidebarCount: 0, // 카드 목록만, 사이드바/페이지네이션 없음
           postsPerPage: 'ALL',
-          sortPosts: 'ascending', // 작성 순서대로(오래된 글 먼저). 같은 날 글이 여럿이면 date에 시각까지 적기: 2026-11-02T18:25:00
+          // front matter에 date가 없으면 Docusaurus가 첫 커밋 시각(아직 커밋 전이면 파일 생성 시각)을 씀.
+          // 사이트는 날짜를 UTC로 그리므로(front matter 날짜를 UTC로 읽음) 9시간 더해 KST 기준 날짜로 맞춤. 안 하면 새벽 커밋이 전날로 보임
+          // 바뀐 날짜로 최신 글 먼저 다시 정렬. 같은 날 글이 여럿이면 date에 시각까지 적기: 2026-11-02T18:25:00
+          processBlogPosts: async ({blogPosts}) => {
+            for (const {metadata} of blogPosts) {
+              if (!metadata.frontMatter.date) Object.assign(metadata, {date: new Date(metadata.date.getTime() + 9 * 60 * 60 * 1000)});
+            }
+            return blogPosts.sort((a, b) => b.metadata.date.getTime() - a.metadata.date.getTime());
+          },
           onUntruncatedBlogPosts: 'ignore',
           onInlineAuthors: 'ignore', // 책 저자는 front matter에 inline으로 적음
         },
